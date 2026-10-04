@@ -524,5 +524,326 @@
     "referencia": "Romanos 11:33",
     "opciones": ["Insondables y profundas", "Majestuosas", "Secretas"],
     "correcta": 0
+  },
+  {
+    "dificultad": "intermedio",
+    "enunciado": "¿Cómo se describió a sí mismo Pablo al comenzar la carta?",
+    "referencia": "Romanos 1:1",
+    "opciones": [
+      "Un anciano",
+      "Un siervo de Jesucristo",
+      "Un profesor",
+      "Un santo"
+    ],
+    "correcta": 1
+  },
+  {
+    "dificultad": "intermedio",
+    "enunciado": "Pablo dijo que había sido llamado a ser ¿qué?",
+    "referencia": "Romanos 1:1",
+    "opciones": ["Un siervo de la fe", "Un judío", "Un apóstol", "Un fariseo"],
+    "correcta": 2
+  },
+  {
+    "dificultad": "intermedio",
+    "enunciado": "Según Pablo, ¿para qué había sido apartado?",
+    "referencia": "Romanos 1:1",
+    "opciones": [
+      "Para el evangelio de Dios",
+      "Para testificar sobre los acontecimientos futuros",
+      "Para los judíos",
+      "Para los gentiles"
+    ],
+    "correcta": 0
+  },
+  {
+    "dificultad": "intermedio",
+    "enunciado": "Según Romanos 1, ¿qué había prometido Dios antes por medio de sus profetas en las Escrituras?",
+    "referencia": "Romanos 1:2",
+    "opciones": [
+      "La conversión de toda la humanidad",
+      "La caída de Jerusalén",
+      "El ministerio de Pablo",
+      "El evangelio de Dios"
+    ],
+    "correcta": 3
+  },
+  {
+    "dificultad": "intermedio",
+    "enunciado": "Según Romanos 1, ¿de quién era descendiente Jesús según la carne?",
+    "referencia": "Romanos 1:3",
+    "opciones": ["Aarón", "David", "Moisés", "Melquisedec"],
+    "correcta": 1
+  },
+  {
+    "dificultad": "intermedio",
+    "enunciado": "Según Romanos 1, ¿de qué manera fue declarado Jesús Hijo de Dios?",
+    "referencia": "Romanos 1:4",
+    "opciones": [
+      "Humildemente",
+      "Con un poco de suerte",
+      "Graciosamente",
+      "Con poder"
+    ],
+    "correcta": 3
+  },
+  {
+    "dificultad": "intermedio",
+    "enunciado": "¿Con qué prueba fue declarado Jesús Hijo de Dios con poder?",
+    "referencia": "Romanos 1:4",
+    "opciones": [
+      "Su nacimiento en Belén",
+      "Su santo nacimiento",
+      "Su resurrección de entre los muertos",
+      "Su poder para resucitar a los muertos"
+    ],
+    "correcta": 2
+  },
+  {
+    "dificultad": "intermedio",
+    "enunciado": "Según Romanos 1, ¿por medio de quién se recibió la gracia y el apostolado?",
+    "referencia": "Romanos 1:5",
+    "opciones": ["Jesucristo", "El Espíritu", "El evangelio", "Las Escrituras"],
+    "correcta": 0
+  },
+  {
+    "dificultad": "intermedio",
+    "enunciado": "¿Cómo describió Pablo a los creyentes romanos en el saludo?",
+    "referencia": "Romanos 1:7",
+    "opciones": [
+      "El pueblo de la cruz",
+      "Ungidos de Dios",
+      "Siervos de la fe",
+      "Amados de Dios"
+    ],
+    "correcta": 3
+  },
+  {
+    "dificultad": "intermedio",
+    "enunciado": "Según Romanos 1, ¿a qué han sido llamados los creyentes romanos?",
+    "referencia": "Romanos 1:7",
+    "opciones": [
+      "A ser piadosos",
+      "A ser sobrios en todo",
+      "A ser santos",
+      "A guardar el secreto"
+    ],
+    "correcta": 2
+  },
+  {
+    "dificultad": "intermedio",
+    "enunciado": "Cuando Pablo supo que la fe de los romanos se divulgaba por todo el mundo, ¿qué hizo?",
+    "referencia": "Romanos 1:8",
+    "opciones": [
+      "Los amó muchísimo",
+      "Dio gracias a Dios por ellos",
+      "Deseó viajar a Roma",
+      "Oró por ellos"
+    ],
+    "correcta": 1
+  },
+  {
+    "dificultad": "avanzado",
+    "enunciado": "¿Sobre qué puso Pablo a Dios por testigo en Romanos 1?",
+    "referencia": "Romanos 1:9",
+    "opciones": [
+      "Su dedicación a predicar el evangelio",
+      "Su amor por los gentiles",
+      "Su preocupación por el bienestar de ellos",
+      "Que sin cesar hacía mención de ellos en sus oraciones"
+    ],
+    "correcta": 3
+  },
+  {
+    "dificultad": "avanzado",
+    "enunciado": "Según Romanos 1, Pablo dijo que servía a Dios ¿con qué, en el evangelio de su Hijo?",
+    "referencia": "Romanos 1:9",
+    "opciones": [
+      "Con esperanza",
+      "Con su espíritu",
+      "Con toda su fuerza",
+      "Con contentamiento"
+    ],
+    "correcta": 1
+  },
+  {
+    "dificultad": "avanzado",
+    "enunciado": "¿Qué pedía Pablo en sus oraciones respecto de los creyentes romanos?",
+    "referencia": "Romanos 1:10",
+    "opciones": [
+      "Que Dios los moviera a apoyar su ministerio",
+      "Que Dios le diera gracia ante los ojos de ellos",
+      "Que Dios le concediera al fin un próspero viaje para ir a ellos",
+      "Que Dios le ayudara a hallar creyentes fieles entre ellos"
+    ],
+    "correcta": 2
+  },
+  {
+    "dificultad": "intermedio",
+    "enunciado": "¿Por qué anhelaba Pablo ver a los creyentes de Roma?",
+    "referencia": "Romanos 1:11",
+    "opciones": [
+      "Para desenmascarar a los falsos predicadores",
+      "Para explicarles que la circuncisión no era necesaria",
+      "Para nombrar líderes entre ellos",
+      "Para comunicarles algún don espiritual y confirmarlos"
+    ],
+    "correcta": 3
+  },
+  {
+    "dificultad": "avanzado",
+    "enunciado": "Según Romanos 1, ¿por qué Pablo no había podido ir todavía a Roma?",
+    "referencia": "Romanos 1:13",
+    "opciones": [
+      "Temía ir allí",
+      "Hasta entonces había sido estorbado",
+      "No conocía el camino",
+      "Su barco naufragó"
+    ],
+    "correcta": 1
+  },
+  {
+    "dificultad": "intermedio",
+    "enunciado": "Según Romanos 1, ¿de quiénes se declaraba deudor Pablo?",
+    "referencia": "Romanos 1:14",
+    "opciones": [
+      "De los grandes hombres y los niños",
+      "De los judíos y los hebreos",
+      "De griegos y bárbaros, sabios y no sabios",
+      "De los santos y los pecadores"
+    ],
+    "correcta": 2
+  },
+  {
+    "dificultad": "intermedio",
+    "enunciado": "¿Por qué no se avergonzaba Pablo del evangelio?",
+    "referencia": "Romanos 1:16",
+    "opciones": [
+      "Porque estaba orgulloso de su fe",
+      "Porque conducía las almas a la luz",
+      "Porque le resultaba provechoso",
+      "Porque es poder de Dios para salvación a todo aquel que cree"
+    ],
+    "correcta": 3
+  },
+  {
+    "dificultad": "intermedio",
+    "enunciado": "Según Romanos 1, ¿en qué se revela la justicia de Dios por fe y para fe?",
+    "referencia": "Romanos 1:17",
+    "opciones": [
+      "En el evangelio de Cristo",
+      "En las Escrituras",
+      "En la sangre de Jesús",
+      "En el Espíritu de Dios"
+    ],
+    "correcta": 0
+  },
+  {
+    "dificultad": "intermedio",
+    "enunciado": "Según Romanos 1, ¿contra qué se revela la ira de Dios desde el cielo?",
+    "referencia": "Romanos 1:18",
+    "opciones": [
+      "Contra los judíos y los gentiles",
+      "Contra toda impiedad e injusticia de los hombres",
+      "Contra el pecador",
+      "Contra el maligno"
+    ],
+    "correcta": 1
+  },
+  {
+    "dificultad": "intermedio",
+    "enunciado": "Según Romanos 1, ¿por qué vive el justo?",
+    "referencia": "Romanos 1:17",
+    "opciones": [
+      "Por la justicia",
+      "Por la fe",
+      "Por el amor",
+      "Por el Espíritu"
+    ],
+    "correcta": 1
+  },
+  {
+    "dificultad": "intermedio",
+    "enunciado": "Según Romanos 1, ¿cómo se había dado a conocer Dios al mundo aun antes de predicarse el evangelio?",
+    "referencia": "Romanos 1:20",
+    "opciones": [
+      "Por medio del amor",
+      "Por medio de los sueños",
+      "Por medio de visiones",
+      "Por medio de la creación"
+    ],
+    "correcta": 3
+  },
+  {
+    "dificultad": "intermedio",
+    "enunciado": "Según Romanos 1, ¿por qué no tiene excusa el hombre que no sirve a Dios?",
+    "referencia": "Romanos 1:20",
+    "opciones": [
+      "Porque Dios se le ha revelado en sueños",
+      "Porque Dios se le ha revelado en visiones",
+      "Porque Dios se ha revelado en lo que fue creado",
+      "Porque Dios lo ha llamado a sí mismo"
+    ],
+    "correcta": 2
+  },
+  {
+    "dificultad": "avanzado",
+    "enunciado": "Según Romanos 1:24, ¿a qué entregó Dios a los que no quisieron reconocerlo?",
+    "referencia": "Romanos 1:24",
+    "opciones": [
+      "Los hizo inquietos y sedientos de lo espiritual",
+      "Los maldijo con la muerte",
+      "Los desterró de su lado para siempre",
+      "Los entregó a la inmundicia, en las concupiscencias de sus corazones"
+    ],
+    "correcta": 3
+  },
+  {
+    "dificultad": "avanzado",
+    "enunciado": "Según Romanos 1:26, ¿a qué los entregó Dios por haber cambiado la verdad por la mentira?",
+    "referencia": "Romanos 1:25-26",
+    "opciones": [
+      "Los eliminó de la faz de la tierra",
+      "Los declaró caídos",
+      "Los entregó a pasiones vergonzosas",
+      "Los desterró para que sufrieran dolor"
+    ],
+    "correcta": 2
+  },
+  {
+    "dificultad": "avanzado",
+    "enunciado": "Según Romanos 1:28, ¿a qué entregó Dios a los que no quisieron tenerlo en cuenta?",
+    "referencia": "Romanos 1:28",
+    "opciones": [
+      "Los expulsó de su reino",
+      "Los entregó a una mente reprobada",
+      "Los apartó del torrente de la vida",
+      "Los dejó en la oscuridad de la ignorancia"
+    ],
+    "correcta": 1
+  },
+  {
+    "dificultad": "avanzado",
+    "enunciado": "Según Romanos 1, ¿en qué consistieron las pasiones vergonzosas a las que Dios los entregó?",
+    "referencia": "Romanos 1:26-27",
+    "opciones": [
+      "Se dedicaron a servir a muchos dioses",
+      "Practicaron el robo",
+      "Cambiaron las relaciones naturales por las que son contra naturaleza, tanto mujeres como hombres",
+      "Se convirtieron en asesinos"
+    ],
+    "correcta": 2
+  },
+  {
+    "dificultad": "avanzado",
+    "enunciado": "Según Romanos 1, ¿con qué propósito se había propuesto Pablo visitar a los creyentes de Roma?",
+    "referencia": "Romanos 1:13",
+    "opciones": [
+      "Para mostrarles el misterio del reino",
+      "Para mostrarles su rostro",
+      "Para guiarlos a la salvación",
+      "Para tener también entre ellos algún fruto, como entre los demás gentiles"
+    ],
+    "correcta": 3
   }
 ]

@@ -41,9 +41,8 @@ export type Filtros = {
   busqueda?: string;
 };
 
-export async function listarPreguntas(
-  filtros: Filtros = {},
-): Promise<Pregunta[]> {
+/** Arma el WHERE una sola vez para que el listado y el conteo no se desfasen. */
+function condicionesDe(filtros: Filtros) {
   const condiciones = [];
   if (filtros.tipo) condiciones.push(sql`tipo = ${filtros.tipo}`);
   if (filtros.dificultad)
@@ -56,8 +55,24 @@ export async function listarPreguntas(
     condiciones.push(sql`enunciado_norm like ${`%${busqueda}%`}`);
   }
 
-  const filtro = condiciones.length
+  return condiciones.length
     ? sql`where ${condiciones.reduce((previo, actual) => sql`${previo} and ${actual}`)}`
+    : sql``;
+}
+
+export type Pagina = {
+  limite?: number;
+  desplazamiento?: number;
+};
+
+export async function listarPreguntas(
+  filtros: Filtros = {},
+  pagina: Pagina = {},
+): Promise<Pregunta[]> {
+  const filtro = condicionesDe(filtros);
+  const limite = pagina.limite ? sql`limit ${pagina.limite}` : sql``;
+  const salto = pagina.desplazamiento
+    ? sql`offset ${pagina.desplazamiento}`
     : sql``;
 
   const filas = await sql<Fila[]>`
@@ -66,8 +81,16 @@ export async function listarPreguntas(
     from preguntas
     ${filtro}
     order by creado_en desc
+    ${limite} ${salto}
   `;
   return filas.map(aPregunta);
+}
+
+export async function contarPreguntas(filtros: Filtros = {}): Promise<number> {
+  const [fila] = await sql<{ total: number }[]>`
+    select count(*)::int as total from preguntas ${condicionesDe(filtros)}
+  `;
+  return fila.total;
 }
 
 /** Todo el banco de una vez: la trivia lo carga al entrar y después corre sin red. */

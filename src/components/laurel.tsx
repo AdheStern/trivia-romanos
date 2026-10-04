@@ -23,11 +23,18 @@ function enCurva(t: number) {
   };
 }
 
-export function Laurel({ className }: { className?: string }) {
+export function Laurel({
+  className,
+  style,
+}: {
+  className?: string;
+  style?: React.CSSProperties;
+}) {
   return (
     <svg
       viewBox="0 0 56 56"
       className={className}
+      style={style}
       fill="none"
       aria-hidden="true"
       focusable="false"

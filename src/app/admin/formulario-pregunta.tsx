@@ -278,7 +278,7 @@ export function FormularioPregunta({ inicial }: Props) {
             type="button"
             onClick={revisarDuplicados}
             disabled={verificando || borrador.enunciado.trim().length < 6}
-            className="marmol filete rounded-sm px-4 py-2.5 text-sm text-tinta transition-[transform,opacity] duration-200 ease-out hover:-translate-y-0.5 disabled:translate-y-0 disabled:opacity-45"
+            className="marmol filete flex min-h-11 items-center justify-center rounded-sm px-4 text-sm text-tinta transition-[transform,opacity] duration-200 ease-out hover:-translate-y-0.5 disabled:translate-y-0 disabled:opacity-45"
           >
             {verificando ? "Buscando…" : "Verificar si ya existe"}
           </button>
@@ -344,7 +344,7 @@ export function FormularioPregunta({ inicial }: Props) {
                 onClick={() =>
                   cambiar({ opciones: [...borrador.opciones, nuevaFila()] })
                 }
-                className="mt-3 rounded-sm text-sm text-dorado-3 underline decoration-dorado/40 underline-offset-4 transition-colors duration-150 hover:decoration-dorado-3"
+                className="mt-3 flex min-h-11 items-center rounded-sm text-sm text-dorado-3 underline decoration-dorado/40 underline-offset-4 transition-colors duration-150 hover:decoration-dorado-3"
               >
                 Agregar otra opción
               </button>
@@ -435,7 +435,7 @@ export function FormularioPregunta({ inicial }: Props) {
         </div>
       </Panel>
 
-      <div className="flex flex-wrap items-center gap-3">
+      <div className="flex flex-wrap items-center gap-3 pb-2">
         {editando ? (
           <button type="submit" disabled={guardando} className={BOTON_PRIMARIO}>
             {guardando ? "Guardando…" : "Guardar cambios"}
@@ -453,7 +453,7 @@ export function FormularioPregunta({ inicial }: Props) {
               type="button"
               onClick={() => guardar("salir")}
               disabled={guardando}
-              className="marmol filete rounded-sm px-5 py-3 text-sm text-tinta transition-[transform,opacity] duration-200 ease-out hover:-translate-y-0.5 disabled:translate-y-0 disabled:opacity-50"
+              className="marmol filete flex min-h-11 flex-1 items-center justify-center rounded-sm px-5 text-sm text-tinta transition-[transform,opacity] duration-200 ease-out hover:-translate-y-0.5 disabled:translate-y-0 disabled:opacity-50 sm:flex-none"
             >
               Guardar y volver al listado
             </button>
@@ -462,7 +462,7 @@ export function FormularioPregunta({ inicial }: Props) {
 
         <Link
           href="/admin"
-          className="rounded-sm px-2 py-3 text-sm text-travertino/55 underline decoration-travertino/25 underline-offset-4 transition-colors duration-150 hover:text-travertino hover:decoration-travertino/60"
+          className="flex min-h-11 items-center justify-center rounded-sm px-3 text-sm text-travertino/55 underline decoration-travertino/25 underline-offset-4 transition-colors duration-150 hover:text-travertino hover:decoration-travertino/60"
         >
           Cancelar
         </Link>
@@ -474,7 +474,7 @@ export function FormularioPregunta({ inicial }: Props) {
 /* -------------------------------------------------------------------------- */
 
 const BOTON_PRIMARIO =
-  "marmol tallado filete inscripcion rounded-sm px-6 py-3 text-[0.65rem] text-tinta transition-[transform,box-shadow,opacity] duration-200 ease-out hover:-translate-y-0.5 hover:shadow-[0_16px_32px_-16px_rgb(0,0,0,0.9)] disabled:translate-y-0 disabled:opacity-60";
+  "marmol tallado filete inscripcion flex min-h-11 flex-1 items-center justify-center rounded-sm px-6 text-[0.65rem] text-tinta transition-[transform,box-shadow,opacity] duration-200 ease-out hover:-translate-y-0.5 hover:shadow-[0_16px_32px_-16px_rgb(0,0,0,0.9)] disabled:translate-y-0 disabled:opacity-60 sm:flex-none";
 
 function campoClase(conError: boolean): string {
   return [
@@ -592,7 +592,7 @@ function Fila({
         <span
           aria-hidden="true"
           className={[
-            "inscripcion flex h-10 w-10 items-center justify-center rounded-sm border text-sm",
+            "inscripcion flex h-11 w-11 items-center justify-center rounded-sm border text-sm",
             "transition-[background-color,border-color,color] duration-150",
             "peer-focus-visible:outline peer-focus-visible:outline-2 peer-focus-visible:outline-offset-2 peer-focus-visible:outline-dorado-3",
             esCorrecta
@@ -619,7 +619,7 @@ function Fila({
         maxLength={400}
         autoComplete="off"
         placeholder={`Opción ${letra}…`}
-        className="min-w-0 flex-1 rounded-sm border border-tinta/20 bg-white/45 px-3 py-2.5 text-tinta transition-[border-color,background-color] duration-150 placeholder:text-tinta/30 focus:border-dorado focus:bg-white/70"
+        className="min-h-11 min-w-0 flex-1 rounded-sm border border-tinta/20 bg-white/45 px-3 py-2.5 text-tinta transition-[border-color,background-color] duration-150 placeholder:text-tinta/30 focus:border-dorado focus:bg-white/70"
       />
 
       <button
@@ -632,7 +632,7 @@ function Fila({
             ? `Quitar la opción ${letra}`
             : `Hacen falta al menos ${MIN_OPCIONES} opciones`
         }
-        className="shrink-0 rounded-sm px-3 py-2.5 text-tinta-2 transition-[color,background-color] duration-150 hover:bg-porfido/15 hover:text-porfido disabled:opacity-30 disabled:hover:bg-transparent disabled:hover:text-tinta-2"
+        className="flex size-11 shrink-0 items-center justify-center rounded-sm text-tinta-2 transition-[color,background-color] duration-150 hover:bg-porfido/15 hover:text-porfido disabled:opacity-30 disabled:hover:bg-transparent disabled:hover:text-tinta-2"
       >
         <svg
           viewBox="0 0 16 16"

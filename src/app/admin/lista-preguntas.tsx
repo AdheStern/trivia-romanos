@@ -78,17 +78,17 @@ export function ListaPreguntas({ preguntas }: { preguntas: Pregunta[] }) {
               </p>
             </div>
 
-            <div className="flex shrink-0 items-center gap-1">
+            <div className="flex w-full shrink-0 items-center gap-2 sm:w-auto">
               <Link
                 href={`/admin/${pregunta.id}`}
-                className="rounded-sm px-3 py-2 text-sm text-tinta underline decoration-tinta/25 underline-offset-4 transition-colors duration-150 hover:decoration-tinta"
+                className="flex min-h-11 flex-1 items-center justify-center rounded-sm border border-tinta/20 px-4 text-sm text-tinta transition-colors duration-150 hover:border-tinta/50 sm:flex-none"
               >
                 Editar
               </Link>
               <button
                 type="button"
                 onClick={() => pedirBorrado(pregunta)}
-                className="rounded-sm px-3 py-2 text-sm text-tinta-2 transition-[color,background-color] duration-150 hover:bg-porfido/15 hover:text-porfido"
+                className="flex min-h-11 flex-1 items-center justify-center rounded-sm border border-transparent px-4 text-sm text-tinta-2 transition-[color,background-color,border-color] duration-150 hover:border-porfido/40 hover:bg-porfido/15 hover:text-porfido sm:flex-none"
               >
                 Borrar
               </button>
@@ -137,7 +137,7 @@ export function ListaPreguntas({ preguntas }: { preguntas: Pregunta[] }) {
             type="button"
             onClick={confirmar}
             disabled={borrando}
-            className="inscripcion rounded-sm bg-porfido px-5 py-2.5 text-[0.62rem] text-carrara transition-[background-color,opacity] duration-150 hover:bg-porfido-2 disabled:opacity-60"
+            className="inscripcion flex min-h-11 flex-1 items-center justify-center rounded-sm bg-porfido px-5 text-[0.62rem] text-carrara transition-[background-color,opacity] duration-150 hover:bg-porfido-2 disabled:opacity-60 sm:flex-none"
           >
             {borrando ? "Borrando…" : "Sí, borrar"}
           </button>
@@ -145,7 +145,7 @@ export function ListaPreguntas({ preguntas }: { preguntas: Pregunta[] }) {
             type="button"
             onClick={cerrar}
             disabled={borrando}
-            className="rounded-sm px-4 py-2.5 text-sm text-tinta underline decoration-tinta/25 underline-offset-4 transition-colors duration-150 hover:decoration-tinta disabled:opacity-60"
+            className="flex min-h-11 flex-1 items-center justify-center rounded-sm border border-tinta/20 px-4 text-sm text-tinta transition-colors duration-150 hover:border-tinta/50 disabled:opacity-60 sm:flex-none"
           >
             Cancelar
           </button>

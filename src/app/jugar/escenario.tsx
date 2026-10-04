@@ -419,16 +419,16 @@ function Tablero({
         </section>
       ))}
 
-      <footer className="flex flex-wrap items-center justify-center gap-x-4 gap-y-2 text-[clamp(0.68rem,1.4vh,0.88rem)] text-travertino/55">
-        <span className="tabular-nums">
+      <footer className="flex flex-wrap items-center justify-center gap-x-5 gap-y-3">
+        <span className="text-[clamp(0.8rem,1.8vh,1.2rem)] text-travertino/55 tabular-nums">
           {totalUsadas} de {banco.length} ya salieron
         </span>
 
         {totalUsadas > 0 ? (
           confirmando ? (
-            <span className="flex items-center gap-2">
-              <span className="text-dorado-2">
-                ¿Borrar el historial de la sesión?
+            <span className="flex flex-wrap items-center justify-center gap-3">
+              <span className="text-[clamp(0.8rem,1.8vh,1.2rem)] text-dorado-2">
+                ¿Volver a poner todas las preguntas en juego?
               </span>
               <button
                 type="button"
@@ -436,14 +436,14 @@ function Tablero({
                   onReiniciar();
                   setConfirmando(false);
                 }}
-                className="rounded-sm px-2 py-0.5 text-porfido-2 underline decoration-porfido-2/50 underline-offset-4 transition-colors duration-150 hover:decoration-porfido-2"
+                className="inscripcion rounded-sm bg-porfido px-5 py-2.5 text-[clamp(0.6rem,1.4vh,0.9rem)] text-carrara transition-colors duration-150 hover:bg-porfido-2"
               >
                 Sí, reiniciar
               </button>
               <button
                 type="button"
                 onClick={() => setConfirmando(false)}
-                className="rounded-sm px-2 py-0.5 text-travertino/70 underline decoration-travertino/30 underline-offset-4 transition-colors duration-150 hover:decoration-travertino/70"
+                className="inscripcion rounded-sm border border-travertino/30 px-5 py-2.5 text-[clamp(0.6rem,1.4vh,0.9rem)] text-travertino/80 transition-colors duration-150 hover:border-travertino/60 hover:text-travertino"
               >
                 No
               </button>
@@ -452,9 +452,9 @@ function Tablero({
             <button
               type="button"
               onClick={() => setConfirmando(true)}
-              className="rounded-sm px-2 py-0.5 underline decoration-travertino/25 underline-offset-4 transition-colors duration-150 hover:text-travertino hover:decoration-travertino/60"
+              className="marmol tallado filete inscripcion rounded-sm px-6 py-2.5 text-[clamp(0.6rem,1.4vh,0.9rem)] text-tinta transition-[transform,box-shadow] duration-200 ease-out hover:-translate-y-0.5 hover:shadow-[0_16px_32px_-16px_rgb(0,0,0,0.9)]"
             >
-              Reiniciar la sesión
+              Reiniciar el contador
             </button>
           )
         ) : null}
@@ -477,6 +477,23 @@ type RondaProps = {
   onVolver: () => void;
 };
 
+/* La sala mide unos 10 m y la lona 2 m de ancho, así que el texto manda. Se
+   escala según el largo del contenido: corto, enorme; largo, un poco menos. */
+function tamanoOpcion(opciones: { texto: string }[]): string {
+  const largo = Math.max(...opciones.map((opcion) => opcion.texto.length));
+  if (largo <= 30) return "clamp(1.4rem, 5.6vh, 4.6rem)";
+  if (largo <= 52) return "clamp(1.25rem, 4.7vh, 3.9rem)";
+  if (largo <= 78) return "clamp(1.1rem, 3.9vh, 3.2rem)";
+  return "clamp(1rem, 3.2vh, 2.6rem)";
+}
+
+function tamanoEnunciado(enunciado: string): string {
+  if (enunciado.length <= 60) return "clamp(1.5rem, 6.2vh, 5rem)";
+  if (enunciado.length <= 110) return "clamp(1.35rem, 5.2vh, 4.2rem)";
+  if (enunciado.length <= 170) return "clamp(1.2rem, 4.4vh, 3.5rem)";
+  return "clamp(1.1rem, 3.8vh, 3rem)";
+}
+
 function Ronda({
   pregunta,
   elegida,
@@ -488,15 +505,27 @@ function Ronda({
   onSiguiente,
   onVolver,
 }: RondaProps) {
-  const columnas = pregunta.opciones.length === 3 ? 3 : 2;
+  // Con opciones largas, una sola columna da el doble de ancho por línea y
+  // permite dejar la letra más grande.
+  const masLarga = Math.max(...pregunta.opciones.map((o) => o.texto.length));
+  const columnas =
+    masLarga > 78
+      ? 1
+      : pregunta.opciones.length === 3 && masLarga <= 30
+        ? 3
+        : 2;
+  const tamano = tamanoOpcion(pregunta.opciones);
 
   return (
     <main className="grid min-h-0 flex-1 grid-rows-[auto_1fr_auto] gap-[2.5vh] px-[3vw] py-[3vh]">
       <Arco className="mx-auto w-full max-w-[min(64vw,1180px)]">
-        <div className="flex min-h-[20vh] flex-col justify-center px-[8%] pt-[13%] pb-[6%] text-center">
+        <div className="flex flex-col justify-center px-[7%] pt-[12%] pb-[4%] text-center">
           <h1
-            className="text-tinta text-[clamp(1.2rem,calc(3.5vh+0.6vw),3.4rem)] leading-[1.2]"
-            style={{ textWrap: "balance" }}
+            className="text-tinta leading-[1.16]"
+            style={{
+              textWrap: "balance",
+              fontSize: tamanoEnunciado(pregunta.enunciado),
+            }}
           >
             {pregunta.enunciado}
           </h1>
@@ -517,6 +546,7 @@ function Ronda({
                 key={opcion.texto}
                 letra={LETRAS[indice]}
                 texto={opcion.texto}
+                tamano={tamano}
                 estado={estadoDeOpcion(pregunta, elegida, indice)}
                 onElegir={() => onElegir(indice)}
               />
@@ -633,7 +663,7 @@ function Pie({
     <div className="flex shrink-0 flex-wrap items-center justify-center gap-x-6 gap-y-3">
       <p
         aria-live="polite"
-        className="inscripcion text-[clamp(0.7rem,1.7vh,1.05rem)]"
+        className="inscripcion text-[clamp(0.9rem,2.6vh,2rem)]"
       >
         {pregunta.tipo === "aproximacion" ? (
           <span className="text-dorado-2">Respuesta revelada</span>
@@ -645,7 +675,7 @@ function Pie({
       </p>
 
       {pregunta.referencia ? (
-        <p className="text-[clamp(0.7rem,1.5vh,0.95rem)] text-travertino/60 italic">
+        <p className="text-[clamp(0.8rem,2vh,1.5rem)] text-travertino/60 italic">
           {pregunta.referencia}
         </p>
       ) : null}
