@@ -3,9 +3,10 @@
     "enunciado": "Según Romanos 3, ¿cuál es la función de la ley frente al pecado?",
     "referencia": "Romanos 3:20",
     "opciones": [
-      "Justificar al ser humano delante de Dios",
-      "Hacer que solamente los judíos sean salvos",
-      "Dar conocimiento del pecado"
+      "Justificar al que la cumple",
+      "Dar fuerzas para vencer el pecado",
+      "Dar conocimiento del pecado",
+      "Borrar los pecados cometidos por ignorancia"
     ],
     "correcta": 2
   },
@@ -14,8 +15,9 @@
     "referencia": "Romanos 4",
     "opciones": [
       "El ejemplo de Abraham",
-      "El reinado de Salomón",
-      "La construcción del templo"
+      "La entrega de la ley en el Sinaí",
+      "El sacerdocio de Aarón",
+      "El pacto de Dios con David"
     ],
     "correcta": 0
   },
@@ -23,16 +25,17 @@
     "enunciado": "Según Romanos 7, ¿qué describe Pablo cuando dice «no hago el bien que quiero, sino el mal que no quiero»?",
     "referencia": "Romanos 7:19",
     "opciones": [
-      "La incapacidad del ser humano para necesitar la gracia de Dios",
-      "El conflicto con el pecado y la incapacidad de la ley para producir liberación",
-      "Que la ley carece completamente de valor"
+      "Que el creyente pierde la salvación cada vez que peca",
+      "El conflicto con el pecado y la incapacidad de la ley para liberar",
+      "Que la ley misma es pecado y debe abolirse",
+      "Que el cuerpo es malo y no fue creado por Dios"
     ],
     "correcta": 1
   },
   {
     "enunciado": "¿Quién escribió la carta a los Romanos?",
     "referencia": "Romanos 1:1",
-    "opciones": ["Pedro", "Pablo", "Santiago"],
+    "opciones": ["Pedro", "Pablo", "Lucas", "Apolos"],
     "correcta": 1
   },
   {
@@ -41,7 +44,8 @@
     "opciones": [
       "A los creyentes de Roma",
       "A los creyentes de Corinto",
-      "A los creyentes de Jerusalén"
+      "A los creyentes de Éfeso",
+      "A los hebreos de la dispersión"
     ],
     "correcta": 0
   },
@@ -50,50 +54,77 @@
     "referencia": "Romanos 1:16",
     "opciones": [
       "Poder de Dios para salvación",
-      "Una filosofía religiosa",
-      "Una ley exclusiva para Israel"
+      "Sabiduría de Dios para los perfectos",
+      "Justicia de Dios para los que guardan la ley",
+      "Misterio escondido desde los siglos"
     ],
     "correcta": 0
   },
   {
     "enunciado": "¿A quién se menciona primero en Romanos 1:16 respecto al alcance del evangelio?",
     "referencia": "Romanos 1:16",
-    "opciones": ["Al griego", "Al romano", "Al judío"],
-    "correcta": 2
+    "opciones": [
+      "Al judío",
+      "Al griego",
+      "Al bárbaro",
+      "Al gentil temeroso de Dios"
+    ],
+    "correcta": 0
   },
   {
     "enunciado": "Según Romanos 1:17, ¿cómo vivirá el justo?",
     "referencia": "Romanos 1:17",
-    "opciones": ["Por sus obras", "Por fe", "Por conocimiento"],
-    "correcta": 1
+    "opciones": [
+      "Por fe",
+      "Por obras de justicia",
+      "Por la obediencia a la ley",
+      "Por el conocimiento de Dios"
+    ],
+    "correcta": 0
   },
   {
     "enunciado": "Según Romanos 1:20, ¿qué puede conocerse mediante las cosas creadas?",
     "referencia": "Romanos 1:20",
     "opciones": [
       "El eterno poder y deidad de Dios",
-      "La fecha del regreso de Cristo",
-      "La soberanía de Dios"
+      "La voluntad de Dios para cada persona",
+      "El plan de redención en Cristo",
+      "El tiempo del juicio final"
     ],
     "correcta": 0
   },
   {
     "enunciado": "Según Romanos 2:4, ¿qué conduce al arrepentimiento?",
     "referencia": "Romanos 2:4",
-    "opciones": ["La riqueza", "La bondad de Dios", "El conocimiento humano"],
-    "correcta": 1
+    "opciones": [
+      "La bondad de Dios",
+      "El temor del castigo",
+      "La predicación de la ley",
+      "La disciplina del Señor"
+    ],
+    "correcta": 0
   },
   {
     "enunciado": "Según Romanos 3:10, ¿cuántos justos hay por naturaleza humana?",
     "referencia": "Romanos 3:10",
-    "opciones": ["Algunos", "Muchos", "Ninguno"],
-    "correcta": 2
+    "opciones": [
+      "Ninguno",
+      "Sólo un remanente fiel",
+      "Los que buscan a Dios de corazón",
+      "Los que nacieron bajo la ley"
+    ],
+    "correcta": 0
   },
   {
     "enunciado": "Según Romanos 3:23, ¿quiénes han pecado?",
     "referencia": "Romanos 3:23",
-    "opciones": ["Solamente los gentiles", "Todos", "Solamente los judíos"],
-    "correcta": 1
+    "opciones": [
+      "Todos",
+      "Todos menos los niños",
+      "Sólo los gentiles",
+      "Sólo los que no tuvieron la ley"
+    ],
+    "correcta": 0
   },
   {
     "enunciado": "Según Romanos 3:24, ¿cómo son justificados los creyentes?",
@@ -101,14 +132,15 @@
     "opciones": [
       "Gratuitamente por la gracia de Dios",
       "Por cumplir perfectamente la ley",
-      "Por pertenecer a Israel"
+      "Por la fe más las obras de misericordia",
+      "Por pertenecer al pueblo del pacto"
     ],
     "correcta": 0
   },
   {
     "enunciado": "¿Qué personaje utiliza Pablo como ejemplo destacado de justificación por fe?",
     "referencia": "Romanos 4:1-3",
-    "opciones": ["Abraham", "Moisés", "Josué"],
+    "opciones": ["Abraham", "Moisés", "Noé", "Josué"],
     "correcta": 0
   },
   {
@@ -116,36 +148,43 @@
     "referencia": "Romanos 4:3",
     "opciones": [
       "Creyó a Dios",
-      "Construyó el templo",
-      "Recibió las tablas de la ley"
+      "Ofreció sacrificios aceptables",
+      "Guardó los mandamientos de Dios",
+      "Edificó un altar en Siquem"
     ],
     "correcta": 0
   },
   {
     "enunciado": "Según Romanos 5:1, ¿qué tenemos como resultado de ser justificados por la fe?",
     "referencia": "Romanos 5:1",
-    "opciones": ["Paz para con Dios", "Prosperidad", "Perdón de pecados"],
+    "opciones": [
+      "Paz para con Dios",
+      "Entrada al lugar santísimo",
+      "Libertad de toda tentación",
+      "Herencia entre todos los santificados"
+    ],
     "correcta": 0
   },
   {
     "enunciado": "¿Por medio de quién entró el pecado al mundo según Romanos 5?",
     "referencia": "Romanos 5:12",
-    "opciones": ["Caín", "Adán", "Satanás"],
-    "correcta": 1
+    "opciones": ["Adán", "Eva", "Caín", "Satanás"],
+    "correcta": 0
   },
   {
     "enunciado": "¿Qué sobreabundó cuando el pecado abundó?",
     "referencia": "Romanos 5:20",
-    "opciones": ["La ley", "La gracia", "La muerte"],
-    "correcta": 1
+    "opciones": ["La gracia", "La ley", "La muerte", "El juicio"],
+    "correcta": 0
   },
   {
     "enunciado": "Según Romanos 6:4, ¿por qué debemos andar en novedad de vida?",
     "referencia": "Romanos 6:4",
     "opciones": [
-      "Porque fuimos sepultados con Cristo",
-      "Porque recibimos riquezas",
-      "Porque cumplimos la ley"
+      "Porque fuimos sepultados con Cristo en el bautismo",
+      "Porque recibimos dones del Espíritu",
+      "Porque guardamos los mandamientos",
+      "Porque fuimos circuncidados en el corazón"
     ],
     "correcta": 0
   },
@@ -154,40 +193,48 @@
     "referencia": "Romanos 6:6",
     "opciones": [
       "Nuestro viejo hombre",
-      "Nuestro cuerpo físico",
-      "Nuestra conciencia"
+      "Nuestro cuerpo mortal",
+      "Nuestra conciencia acusadora",
+      "Nuestro espíritu de esclavitud"
     ],
     "correcta": 0
   },
   {
     "enunciado": "Según Romanos 6:23, ¿cuál es la paga del pecado?",
     "referencia": "Romanos 6:23",
-    "opciones": ["Enfermedad", "Muerte", "Pobreza"],
-    "correcta": 1
+    "opciones": ["Muerte", "Enfermedad", "Esclavitud", "Destierro"],
+    "correcta": 0
   },
   {
     "enunciado": "¿Cuál es la dádiva de Dios mencionada en Romanos 6:23?",
     "referencia": "Romanos 6:23",
     "opciones": [
       "Vida eterna en Cristo Jesús",
-      "Perdón de pecados",
-      "La presencia de Dios"
+      "El perdón de los pecados",
+      "El Espíritu Santo",
+      "La paz que sobrepasa todo entendimiento"
     ],
     "correcta": 0
   },
   {
     "enunciado": "Según Romanos 7, ¿qué produce la ley respecto al conocimiento del pecado?",
     "referencia": "Romanos 7:7",
-    "opciones": ["Lo elimina", "Lo da a conocer", "Lo justifica"],
-    "correcta": 1
+    "opciones": [
+      "Lo da a conocer",
+      "Lo quita de raíz",
+      "Lo justifica",
+      "Lo disminuye poco a poco"
+    ],
+    "correcta": 0
   },
   {
     "enunciado": "¿Qué conflicto describe Pablo en Romanos 7?",
     "referencia": "Romanos 7:15-21",
     "opciones": [
       "Quiere hacer el bien, pero encuentra el pecado presente en él",
-      "No sabe quién es Dios",
-      "No conoce la ley"
+      "Quiere predicar, pero se lo impiden los falsos hermanos",
+      "Quiere guardar la ley, pero no la conoce bien",
+      "Quiere partir y estar con Cristo, pero debe quedarse"
     ],
     "correcta": 0
   },
@@ -195,41 +242,44 @@
     "enunciado": "Según Romanos 7:24, ¿qué pregunta angustiosa formula Pablo?",
     "referencia": "Romanos 7:24",
     "opciones": [
-      "¿Quién me enseñará la ley?",
       "¿Quién me librará de este cuerpo de muerte?",
-      "¿Quién destruirá Roma?"
+      "¿Quién nos separará del amor de Cristo?",
+      "¿Quién acusará a los escogidos de Dios?",
+      "¿Quién entendió la mente del Señor?"
     ],
-    "correcta": 1
+    "correcta": 0
   },
   {
     "enunciado": "Según Romanos 8:1, ¿qué no hay para los que están en Cristo Jesús?",
     "referencia": "Romanos 8:1",
-    "opciones": ["Tentación", "Condenación", "Aflicción"],
-    "correcta": 1
+    "opciones": ["Condenación", "Tentación", "Tribulación", "Acusación"],
+    "correcta": 0
   },
   {
     "enunciado": "Según Romanos 8:15, ¿qué pueden decir los creyentes por el espíritu de adopción?",
     "referencia": "Romanos 8:15",
-    "opciones": ["Abba, Padre", "Rey de Israel", "Señor de los ejércitos"],
+    "opciones": ["Abba, Padre", "Maranata", "Aleluya", "Santo, santo, santo"],
     "correcta": 0
   },
   {
     "enunciado": "Según Romanos 8:28, ¿a quiénes ayudan a bien todas las cosas?",
     "referencia": "Romanos 8:28",
     "opciones": [
-      "A los que tienen conocimiento de Dios",
       "A los que aman a Dios",
-      "A los que han sido perdonados por Dios"
+      "A los que guardan sus mandamientos",
+      "A los que confían en su misericordia",
+      "A los que perseveran hasta el fin"
     ],
-    "correcta": 1
+    "correcta": 0
   },
   {
     "enunciado": "Según Romanos 8:31, si Dios es por nosotros, ¿quién contra nosotros?",
     "referencia": "Romanos 8:31",
     "opciones": [
       "Nadie puede prevalecer finalmente contra el propósito de Dios",
-      "Nadie podrá jamás perseguirnos",
-      "Nunca tendremos problemas"
+      "Nadie podrá perseguirnos jamás",
+      "No volveremos a pasar tribulación",
+      "El mundo nos recibirá con honra"
     ],
     "correcta": 0
   },
@@ -238,8 +288,9 @@
     "referencia": "Romanos 10:9",
     "opciones": [
       "Que Jesús es el Señor",
-      "Que Jesús es salvador",
-      "Que Jesús me perdonó"
+      "Que Jesús es el Hijo de David",
+      "Que Jesús es el Cordero de Dios",
+      "Que Jesús es el Cristo, el Hijo del Dios viviente"
     ],
     "correcta": 0
   },
@@ -247,9 +298,10 @@
     "enunciado": "Según Romanos 12:2, ¿qué debe experimentar el creyente?",
     "referencia": "Romanos 12:2",
     "opciones": [
-      "Renovación de su entendimiento",
-      "Cambio de nacionalidad",
-      "Perdón de pecados"
+      "La renovación de su entendimiento",
+      "La circuncisión del corazón",
+      "El lavamiento de la regeneración",
+      "La imposición de manos"
     ],
     "correcta": 0
   },
@@ -257,25 +309,32 @@
     "enunciado": "Según Romanos 10:17, ¿de dónde viene la fe?",
     "referencia": "Romanos 10:17",
     "opciones": [
-      "Del conocimiento humano",
       "Del oír, y el oír por la palabra de Dios",
-      "De la guía espiritual"
+      "De la obra del Espíritu en el corazón",
+      "Del testimonio de los milagros",
+      "De la enseñanza de los apóstoles"
     ],
-    "correcta": 1
+    "correcta": 0
   },
   {
     "enunciado": "Según Romanos 12:21, ¿cómo se vence el mal?",
     "referencia": "Romanos 12:21",
-    "opciones": ["Con fuerza espiritual", "Con justicia", "Con el bien"],
-    "correcta": 2
+    "opciones": [
+      "Con el bien",
+      "Con la verdad",
+      "Con oración y ayuno",
+      "Con la espada del Espíritu"
+    ],
+    "correcta": 0
   },
   {
     "enunciado": "Según Romanos 1:5, ¿para qué recibió Pablo gracia y apostolado?",
     "referencia": "Romanos 1:5",
     "opciones": [
       "Para la obediencia a la fe entre las naciones",
-      "Para gobernar las iglesias",
-      "Para establecer y anunciar el reino"
+      "Para edificar el cuerpo de Cristo",
+      "Para guardar el depósito de la sana doctrina",
+      "Para apacentar el rebaño de Dios"
     ],
     "correcta": 0
   },
@@ -284,8 +343,9 @@
     "referencia": "Romanos 1:11",
     "opciones": [
       "Un don espiritual para confirmarlos",
-      "Una nueva ley",
-      "Una orden política"
+      "Una ofrenda para los santos pobres",
+      "Una carta de recomendación",
+      "El misterio revelado a los apóstoles"
     ],
     "correcta": 0
   },
@@ -293,45 +353,54 @@
     "enunciado": "Según Romanos 1:14, ¿de quiénes se consideraba deudor Pablo?",
     "referencia": "Romanos 1:14",
     "opciones": [
-      "Solamente de los judíos",
       "De griegos y bárbaros, sabios y no sabios",
-      "Solamente de los romanos"
+      "De judíos y prosélitos",
+      "De pobres y huérfanos",
+      "De los hermanos de Jerusalén"
     ],
-    "correcta": 1
+    "correcta": 0
   },
   {
     "enunciado": "¿Qué hicieron algunos seres humanos con la verdad de Dios, según Romanos 1:25?",
     "referencia": "Romanos 1:25",
     "opciones": [
-      "La perfeccionaron",
       "La cambiaron por la mentira",
-      "La ocultaron de los profetas"
+      "La escondieron de los profetas",
+      "La tuvieron por locura",
+      "La anunciaron sin amor"
     ],
-    "correcta": 1
+    "correcta": 0
   },
   {
     "enunciado": "Según Romanos 2:1, ¿qué problema señala Pablo en quien juzga a otro mientras practica cosas semejantes?",
     "referencia": "Romanos 2:1",
     "opciones": [
       "Se condena a sí mismo",
-      "Pierde el control",
-      "Deja de pertenecer a Israel"
+      "Pierde su recompensa",
+      "Entristece al Espíritu Santo",
+      "Queda bajo la ley de Moisés"
     ],
     "correcta": 0
   },
   {
     "enunciado": "Según Romanos 2:11, ¿hace Dios acepción de personas?",
     "referencia": "Romanos 2:11",
-    "opciones": ["Sí, según su nacionalidad", "Sí, según sus riquezas", "No"],
-    "correcta": 2
+    "opciones": [
+      "No",
+      "Sí, según la nación",
+      "Sí, según las obras de cada uno",
+      "Sí, con los que tienen la ley"
+    ],
+    "correcta": 0
   },
   {
     "enunciado": "¿Qué ventaja tenían los judíos según Romanos 3:1-2?",
     "referencia": "Romanos 3:1-2",
     "opciones": [
       "Les fueron confiados los oráculos de Dios",
-      "No necesitaban arrepentirse",
-      "Eran incapaces de pecar"
+      "Recibieron primero el Espíritu Santo",
+      "Fueron eximidos del juicio",
+      "Tenían el templo y los sacrificios"
     ],
     "correcta": 0
   },
@@ -341,7 +410,8 @@
     "opciones": [
       "Conocimiento del pecado",
       "Conocimiento de la gracia",
-      "Conocimiento de los misterios"
+      "Conocimiento del misterio de Cristo",
+      "Conocimiento del tiempo del fin"
     ],
     "correcta": 0
   },
@@ -349,25 +419,27 @@
     "enunciado": "Según Romanos 3:28, ¿cómo es justificado el hombre?",
     "referencia": "Romanos 3:28",
     "opciones": [
-      "Por las obras de la ley",
       "Por fe sin las obras de la ley",
-      "Por la gracia y la ley"
+      "Por la fe que obra por el amor",
+      "Por la fe y el bautismo",
+      "Por fe, pero guardando el sábado"
     ],
-    "correcta": 1
+    "correcta": 0
   },
   {
     "enunciado": "¿Qué ejemplo utiliza Pablo en Romanos 4 para demostrar que la fe precedió a la circuncisión?",
     "referencia": "Romanos 4:9-11",
-    "opciones": ["Moisés", "Abraham", "David"],
-    "correcta": 1
+    "opciones": ["Abraham", "Moisés", "David", "Melquisedec"],
+    "correcta": 0
   },
   {
     "enunciado": "Según Romanos 4:11, ¿qué fue la circuncisión para Abraham?",
     "referencia": "Romanos 4:11",
     "opciones": [
       "Una señal y sello de la justicia de la fe",
-      "Una condición para convertirse en rey",
-      "Una ceremonia de sacerdocio"
+      "La condición para recibir la promesa",
+      "El inicio del pacto de la ley",
+      "Una ordenanza sólo para sus siervos"
     ],
     "correcta": 0
   },
@@ -376,30 +448,37 @@
     "referencia": "Romanos 4:18",
     "opciones": [
       "Creyó esperando contra esperanza",
-      "Creyó únicamente después de ver",
-      "Creyó solamente después de recibir la ley"
+      "Creyó después de ver la señal del fuego",
+      "Creyó recién cuando nació Isaac",
+      "Creyó porque conocía la ley de antemano"
     ],
     "correcta": 0
   },
   {
     "enunciado": "Según Romanos 5:3-4, la tribulación produce una cadena que culmina en:",
     "referencia": "Romanos 5:3-4",
-    "opciones": ["Riqueza", "Esperanza", "Poder"],
-    "correcta": 1
+    "opciones": ["Esperanza", "Paciencia", "Prueba", "Amor"],
+    "correcta": 0
   },
   {
     "enunciado": "Según Romanos 5:5, ¿qué ha sido derramado en nuestros corazones?",
     "referencia": "Romanos 5:5",
-    "opciones": ["El conocimiento", "El amor de Dios", "La gracia"],
-    "correcta": 1
+    "opciones": [
+      "El amor de Dios",
+      "El Espíritu Santo",
+      "La gracia abundante",
+      "La sangre de Cristo"
+    ],
+    "correcta": 0
   },
   {
     "enunciado": "¿Cuál es el contraste principal entre Adán y Cristo en Romanos 5?",
     "referencia": "Romanos 5:17-19",
     "opciones": [
-      "Adán representa la entrada del pecado, Cristo trae la gracia y la vida",
-      "Ambos representan exactamente lo mismo",
-      "Adán representa la ley y Cristo representa la fe"
+      "Adán trajo el pecado y la muerte; Cristo, la gracia y la vida",
+      "Adán representa la ley; Cristo, la fe",
+      "Adán fue el primer profeta; Cristo, el último",
+      "Los dos representan lo mismo en tiempos distintos"
     ],
     "correcta": 0
   },
@@ -407,19 +486,21 @@
     "enunciado": "Según Romanos 6:1-2, ¿qué responde Pablo a la idea de continuar pecando para que abunde la gracia?",
     "referencia": "Romanos 6:1-2",
     "opciones": [
-      "Sí, porque la gracia es mayor",
       "En ninguna manera",
-      "Solamente los gentiles pueden hacerlo"
+      "Sólo si no se vuelve costumbre",
+      "Sí, para que la gracia se vea mayor",
+      "Sólo los débiles pueden hacerlo"
     ],
-    "correcta": 1
+    "correcta": 0
   },
   {
     "enunciado": "Según Romanos 6:11, ¿cómo debe considerarse el creyente?",
     "referencia": "Romanos 6:11",
     "opciones": [
-      "Muerto al pecado y vivo para Dios en Cristo Jesús",
-      "Muerto físicamente",
-      "Superior a los demás seres humanos"
+      "Muertos al pecado y vivos para Dios en Cristo Jesús",
+      "Peregrinos y extranjeros en la tierra",
+      "Siervos inútiles que sólo cumplieron su deber",
+      "Débiles en la carne pero fuertes en la ley"
     ],
     "correcta": 0
   },
@@ -428,24 +509,31 @@
     "referencia": "Romanos 6:16",
     "opciones": [
       "De aquel a quien obedecemos",
-      "De la sociedad",
-      "Del gobierno"
+      "De quien nos compró por precio",
+      "Del que nos engendró en la fe",
+      "De la ley que nos fue dada"
     ],
     "correcta": 0
   },
   {
     "enunciado": "Según Romanos 7:4, los creyentes fueron hechos muertos a la ley mediante:",
     "referencia": "Romanos 7:4",
-    "opciones": ["Moisés", "El cuerpo de Cristo", "Los sacrificios del templo"],
-    "correcta": 1
+    "opciones": [
+      "El cuerpo de Cristo",
+      "La sangre del cordero pascual",
+      "El bautismo de Juan",
+      "La circuncisión del corazón"
+    ],
+    "correcta": 0
   },
   {
     "enunciado": "¿Cómo describe Pablo la ley en Romanos 7:12?",
     "referencia": "Romanos 7:12",
     "opciones": [
       "Santa, justa y buena",
-      "Útil y correcta",
-      "Exclusivamente espiritual"
+      "Débil e inútil",
+      "Sombra de los bienes venideros",
+      "Ayo para llevarnos a Cristo"
     ],
     "correcta": 0
   },
@@ -453,44 +541,61 @@
     "enunciado": "Según Romanos 8:3, ¿qué no podía hacer la ley?",
     "referencia": "Romanos 8:3",
     "opciones": [
-      "Salvar al hombre debido a la debilidad de la carne",
-      "Revelar el pecado",
-      "Mostrar la santidad de Dios"
+      "Salvar al hombre, por ser débil a causa de la carne",
+      "Señalar lo que es pecado",
+      "Mostrar la santidad de Dios",
+      "Prometer bendición al que la cumpliera"
     ],
     "correcta": 0
   },
   {
     "enunciado": "Según Romanos 8:9, si alguno no tiene el Espíritu de Cristo:",
     "referencia": "Romanos 8:9",
-    "opciones": ["No es de Cristo", "Es perfecto", "Pertenece a Israel"],
+    "opciones": [
+      "No es de Cristo",
+      "Aún es niño en la fe",
+      "Está todavía bajo la ley",
+      "No ha recibido el don de lenguas"
+    ],
     "correcta": 0
   },
   {
     "enunciado": "Según Romanos 8:16, ¿qué da testimonio juntamente con nuestro espíritu?",
     "referencia": "Romanos 8:16",
-    "opciones": ["La conciencia", "El Espíritu mismo", "La ley"],
-    "correcta": 1
+    "opciones": [
+      "El Espíritu mismo",
+      "La conciencia",
+      "La ley escrita en el corazón",
+      "La sangre de Cristo"
+    ],
+    "correcta": 0
   },
   {
     "enunciado": "Según Romanos 8:26, ¿qué hace el Espíritu Santo cuando no sabemos cómo orar?",
     "referencia": "Romanos 8:26",
     "opciones": [
       "Intercede por nosotros con gemidos indecibles",
-      "Elimina toda dificultad",
-      "Revela el futuro"
+      "Nos recuerda todas las cosas",
+      "Nos guía a toda verdad",
+      "Reparte dones como él quiere"
     ],
     "correcta": 0
   },
   {
     "enunciado": "¿Cuál de estas cosas menciona Pablo entre las que no pueden separarnos del amor de Dios en Romanos 8?",
     "referencia": "Romanos 8:35",
-    "opciones": ["La tribulación", "La riqueza", "La fama"],
+    "opciones": ["La tribulación", "La enfermedad", "La pobreza", "La duda"],
     "correcta": 0
   },
   {
     "enunciado": "Según Romanos 9:10-13, ¿qué ejemplo utiliza Pablo para hablar de la elección?",
     "referencia": "Romanos 9:10-13",
-    "opciones": ["Jacob y Esaú", "David y Jonatán", "Saúl y Samuel"],
+    "opciones": [
+      "Jacob y Esaú",
+      "Isaac e Ismael",
+      "Caín y Abel",
+      "Efraín y Manasés"
+    ],
     "correcta": 0
   },
   {
@@ -498,8 +603,9 @@
     "referencia": "Romanos 9:21",
     "opciones": [
       "El alfarero tiene potestad sobre el barro",
-      "El barro gobierna al alfarero",
-      "El barro es creado por el alfarero"
+      "El barro puede pedir cuentas al alfarero",
+      "El alfarero depende de la calidad del barro",
+      "Todo vaso sale igual del mismo torno"
     ],
     "correcta": 0
   },
@@ -508,21 +614,27 @@
     "referencia": "Romanos 10:4",
     "opciones": [
       "Fin de la ley para justicia a todo aquel que cree",
-      "Primer profeta de Israel",
-      "Último rey de Jerusalén"
+      "Cumplimiento de los profetas y los salmos",
+      "Mediador del nuevo pacto",
+      "Autor y consumador de la fe"
     ],
     "correcta": 0
   },
   {
     "enunciado": "Según Romanos 11:17, ¿qué imagen utiliza Pablo para representar la relación entre Israel y los gentiles incorporados?",
     "referencia": "Romanos 11:17",
-    "opciones": ["Un olivo", "Una montaña", "Una casa"],
+    "opciones": ["Un olivo", "Una vid", "Una higuera", "Un cedro del Líbano"],
     "correcta": 0
   },
   {
     "enunciado": "Según Romanos 11:33, ¿cómo describe Pablo las riquezas de Dios?",
     "referencia": "Romanos 11:33",
-    "opciones": ["Insondables y profundas", "Majestuosas", "Secretas"],
+    "opciones": [
+      "Insondables y profundas",
+      "Escondidas a los sabios",
+      "Reservadas para el día final",
+      "Repartidas conforme a la fe de cada uno"
+    ],
     "correcta": 0
   },
   {
@@ -530,19 +642,24 @@
     "enunciado": "¿Cómo se describió a sí mismo Pablo al comenzar la carta?",
     "referencia": "Romanos 1:1",
     "opciones": [
-      "Un anciano",
       "Un siervo de Jesucristo",
-      "Un profesor",
-      "Un santo"
+      "Un anciano entre los ancianos",
+      "Un maestro de los gentiles",
+      "Un hebreo de hebreos"
     ],
-    "correcta": 1
+    "correcta": 0
   },
   {
     "dificultad": "intermedio",
     "enunciado": "Pablo dijo que había sido llamado a ser ¿qué?",
     "referencia": "Romanos 1:1",
-    "opciones": ["Un siervo de la fe", "Un judío", "Un apóstol", "Un fariseo"],
-    "correcta": 2
+    "opciones": [
+      "Un apóstol",
+      "Un profeta",
+      "Un evangelista",
+      "Un pastor y maestro"
+    ],
+    "correcta": 0
   },
   {
     "dificultad": "intermedio",
@@ -550,9 +667,9 @@
     "referencia": "Romanos 1:1",
     "opciones": [
       "Para el evangelio de Dios",
-      "Para testificar sobre los acontecimientos futuros",
-      "Para los judíos",
-      "Para los gentiles"
+      "Para el servicio del santuario",
+      "Para el evangelio de la circuncisión",
+      "Para los hermanos según la carne"
     ],
     "correcta": 0
   },
@@ -561,49 +678,54 @@
     "enunciado": "Según Romanos 1, ¿qué había prometido Dios antes por medio de sus profetas en las Escrituras?",
     "referencia": "Romanos 1:2",
     "opciones": [
-      "La conversión de toda la humanidad",
-      "La caída de Jerusalén",
-      "El ministerio de Pablo",
-      "El evangelio de Dios"
+      "El evangelio de Dios",
+      "La ley escrita en tablas",
+      "El reino restaurado a Israel",
+      "La venida de Elías"
     ],
-    "correcta": 3
+    "correcta": 0
   },
   {
     "dificultad": "intermedio",
     "enunciado": "Según Romanos 1, ¿de quién era descendiente Jesús según la carne?",
     "referencia": "Romanos 1:3",
-    "opciones": ["Aarón", "David", "Moisés", "Melquisedec"],
-    "correcta": 1
+    "opciones": ["David", "Abraham", "Judá", "Aarón"],
+    "correcta": 0
   },
   {
     "dificultad": "intermedio",
     "enunciado": "Según Romanos 1, ¿de qué manera fue declarado Jesús Hijo de Dios?",
     "referencia": "Romanos 1:4",
     "opciones": [
-      "Humildemente",
-      "Con un poco de suerte",
-      "Graciosamente",
-      "Con poder"
+      "Con poder",
+      "En humildad",
+      "En secreto",
+      "Por decreto del Sanedrín"
     ],
-    "correcta": 3
+    "correcta": 0
   },
   {
     "dificultad": "intermedio",
     "enunciado": "¿Con qué prueba fue declarado Jesús Hijo de Dios con poder?",
     "referencia": "Romanos 1:4",
     "opciones": [
-      "Su nacimiento en Belén",
-      "Su santo nacimiento",
       "Su resurrección de entre los muertos",
-      "Su poder para resucitar a los muertos"
+      "La voz del Padre en el bautismo",
+      "Su transfiguración en el monte",
+      "Las señales que hizo en Galilea"
     ],
-    "correcta": 2
+    "correcta": 0
   },
   {
     "dificultad": "intermedio",
     "enunciado": "Según Romanos 1, ¿por medio de quién se recibió la gracia y el apostolado?",
     "referencia": "Romanos 1:5",
-    "opciones": ["Jesucristo", "El Espíritu", "El evangelio", "Las Escrituras"],
+    "opciones": [
+      "Jesucristo",
+      "El Espíritu Santo",
+      "Los apóstoles de Jerusalén",
+      "Ananías de Damasco"
+    ],
     "correcta": 0
   },
   {
@@ -611,120 +733,120 @@
     "enunciado": "¿Cómo describió Pablo a los creyentes romanos en el saludo?",
     "referencia": "Romanos 1:7",
     "opciones": [
-      "El pueblo de la cruz",
-      "Ungidos de Dios",
-      "Siervos de la fe",
-      "Amados de Dios"
+      "Amados de Dios",
+      "Linaje escogido",
+      "Real sacerdocio",
+      "Columna y baluarte de la verdad"
     ],
-    "correcta": 3
+    "correcta": 0
   },
   {
     "dificultad": "intermedio",
     "enunciado": "Según Romanos 1, ¿a qué han sido llamados los creyentes romanos?",
     "referencia": "Romanos 1:7",
     "opciones": [
-      "A ser piadosos",
-      "A ser sobrios en todo",
       "A ser santos",
-      "A guardar el secreto"
+      "A ser libres",
+      "A ser apóstoles",
+      "A ser herederos del mundo"
     ],
-    "correcta": 2
+    "correcta": 0
   },
   {
     "dificultad": "intermedio",
     "enunciado": "Cuando Pablo supo que la fe de los romanos se divulgaba por todo el mundo, ¿qué hizo?",
     "referencia": "Romanos 1:8",
     "opciones": [
-      "Los amó muchísimo",
       "Dio gracias a Dios por ellos",
-      "Deseó viajar a Roma",
-      "Oró por ellos"
+      "Les escribió una reprensión",
+      "Envió a Timoteo a verlos",
+      "Les pidió una ofrenda"
     ],
-    "correcta": 1
+    "correcta": 0
   },
   {
     "dificultad": "avanzado",
     "enunciado": "¿Sobre qué puso Pablo a Dios por testigo en Romanos 1?",
     "referencia": "Romanos 1:9",
     "opciones": [
-      "Su dedicación a predicar el evangelio",
-      "Su amor por los gentiles",
-      "Su preocupación por el bienestar de ellos",
-      "Que sin cesar hacía mención de ellos en sus oraciones"
+      "Que sin cesar hacía mención de ellos en sus oraciones",
+      "Que no había tomado dinero de nadie",
+      "Que decía la verdad y no mentía",
+      "Que estaba limpio de la sangre de todos"
     ],
-    "correcta": 3
+    "correcta": 0
   },
   {
     "dificultad": "avanzado",
     "enunciado": "Según Romanos 1, Pablo dijo que servía a Dios ¿con qué, en el evangelio de su Hijo?",
     "referencia": "Romanos 1:9",
     "opciones": [
-      "Con esperanza",
       "Con su espíritu",
-      "Con toda su fuerza",
-      "Con contentamiento"
+      "Con buena conciencia",
+      "Con todas sus fuerzas",
+      "Con temor y temblor"
     ],
-    "correcta": 1
+    "correcta": 0
   },
   {
     "dificultad": "avanzado",
     "enunciado": "¿Qué pedía Pablo en sus oraciones respecto de los creyentes romanos?",
     "referencia": "Romanos 1:10",
     "opciones": [
-      "Que Dios los moviera a apoyar su ministerio",
-      "Que Dios le diera gracia ante los ojos de ellos",
       "Que Dios le concediera al fin un próspero viaje para ir a ellos",
-      "Que Dios le ayudara a hallar creyentes fieles entre ellos"
+      "Que Dios les diera espíritu de sabiduría y revelación",
+      "Que fueran librados de los hombres perversos",
+      "Que su amor abundara más y más"
     ],
-    "correcta": 2
+    "correcta": 0
   },
   {
     "dificultad": "intermedio",
     "enunciado": "¿Por qué anhelaba Pablo ver a los creyentes de Roma?",
     "referencia": "Romanos 1:11",
     "opciones": [
-      "Para desenmascarar a los falsos predicadores",
-      "Para explicarles que la circuncisión no era necesaria",
-      "Para nombrar líderes entre ellos",
-      "Para comunicarles algún don espiritual y confirmarlos"
+      "Para comunicarles algún don espiritual y confirmarlos",
+      "Para ordenar ancianos en cada ciudad",
+      "Para corregir lo deficiente de su doctrina",
+      "Para recoger la ofrenda de los santos"
     ],
-    "correcta": 3
+    "correcta": 0
   },
   {
     "dificultad": "avanzado",
     "enunciado": "Según Romanos 1, ¿por qué Pablo no había podido ir todavía a Roma?",
     "referencia": "Romanos 1:13",
     "opciones": [
-      "Temía ir allí",
       "Hasta entonces había sido estorbado",
-      "No conocía el camino",
-      "Su barco naufragó"
+      "Estaba preso en Jerusalén",
+      "Esperaba el permiso de los apóstoles",
+      "No tenía quién lo acompañara"
     ],
-    "correcta": 1
+    "correcta": 0
   },
   {
     "dificultad": "intermedio",
     "enunciado": "Según Romanos 1, ¿de quiénes se declaraba deudor Pablo?",
     "referencia": "Romanos 1:14",
     "opciones": [
-      "De los grandes hombres y los niños",
-      "De los judíos y los hebreos",
       "De griegos y bárbaros, sabios y no sabios",
-      "De los santos y los pecadores"
+      "Sólo de los judíos",
+      "Sólo de los gentiles",
+      "De los que ya habían creído"
     ],
-    "correcta": 2
+    "correcta": 0
   },
   {
     "dificultad": "intermedio",
     "enunciado": "¿Por qué no se avergonzaba Pablo del evangelio?",
     "referencia": "Romanos 1:16",
     "opciones": [
-      "Porque estaba orgulloso de su fe",
-      "Porque conducía las almas a la luz",
-      "Porque le resultaba provechoso",
-      "Porque es poder de Dios para salvación a todo aquel que cree"
+      "Porque es poder de Dios para salvación a todo aquel que cree",
+      "Porque lo había recibido por revelación",
+      "Porque lo predicaba sin cobrar nada",
+      "Porque lo había defendido ante reyes"
     ],
-    "correcta": 3
+    "correcta": 0
   },
   {
     "dificultad": "intermedio",
@@ -732,9 +854,9 @@
     "referencia": "Romanos 1:17",
     "opciones": [
       "En el evangelio de Cristo",
-      "En las Escrituras",
-      "En la sangre de Jesús",
-      "En el Espíritu de Dios"
+      "En la ley y los profetas",
+      "En la creación",
+      "En el juicio de las naciones"
     ],
     "correcta": 0
   },
@@ -743,107 +865,347 @@
     "enunciado": "Según Romanos 1, ¿contra qué se revela la ira de Dios desde el cielo?",
     "referencia": "Romanos 1:18",
     "opciones": [
-      "Contra los judíos y los gentiles",
       "Contra toda impiedad e injusticia de los hombres",
-      "Contra el pecador",
-      "Contra el maligno"
+      "Contra los enemigos de Israel",
+      "Contra los que profanan el sábado",
+      "Contra los falsos profetas"
     ],
-    "correcta": 1
+    "correcta": 0
   },
   {
     "dificultad": "intermedio",
     "enunciado": "Según Romanos 1, ¿por qué vive el justo?",
     "referencia": "Romanos 1:17",
     "opciones": [
-      "Por la justicia",
       "Por la fe",
-      "Por el amor",
-      "Por el Espíritu"
+      "Por la justicia que practica",
+      "Por la misericordia de Dios",
+      "Por la obediencia a la ley"
     ],
-    "correcta": 1
+    "correcta": 0
   },
   {
     "dificultad": "intermedio",
     "enunciado": "Según Romanos 1, ¿cómo se había dado a conocer Dios al mundo aun antes de predicarse el evangelio?",
     "referencia": "Romanos 1:20",
     "opciones": [
-      "Por medio del amor",
+      "Por medio de la creación",
       "Por medio de los sueños",
-      "Por medio de visiones",
-      "Por medio de la creación"
+      "Por medio del arca del pacto",
+      "Por medio de los ángeles"
     ],
-    "correcta": 3
+    "correcta": 0
   },
   {
     "dificultad": "intermedio",
     "enunciado": "Según Romanos 1, ¿por qué no tiene excusa el hombre que no sirve a Dios?",
     "referencia": "Romanos 1:20",
     "opciones": [
-      "Porque Dios se le ha revelado en sueños",
-      "Porque Dios se le ha revelado en visiones",
       "Porque Dios se ha revelado en lo que fue creado",
-      "Porque Dios lo ha llamado a sí mismo"
+      "Porque todos han oído la predicación",
+      "Porque la ley fue dada a todas las naciones",
+      "Porque a cada uno se le dio una señal del cielo"
     ],
-    "correcta": 2
+    "correcta": 0
   },
   {
     "dificultad": "avanzado",
     "enunciado": "Según Romanos 1:24, ¿a qué entregó Dios a los que no quisieron reconocerlo?",
     "referencia": "Romanos 1:24",
     "opciones": [
-      "Los hizo inquietos y sedientos de lo espiritual",
-      "Los maldijo con la muerte",
-      "Los desterró de su lado para siempre",
-      "Los entregó a la inmundicia, en las concupiscencias de sus corazones"
+      "Los entregó a la inmundicia, en las concupiscencias de sus corazones",
+      "Los entregó a pasiones vergonzosas",
+      "Los entregó a una mente reprobada",
+      "Los entregó en manos de sus enemigos"
     ],
-    "correcta": 3
+    "correcta": 0
   },
   {
     "dificultad": "avanzado",
     "enunciado": "Según Romanos 1:26, ¿a qué los entregó Dios por haber cambiado la verdad por la mentira?",
     "referencia": "Romanos 1:25-26",
     "opciones": [
-      "Los eliminó de la faz de la tierra",
-      "Los declaró caídos",
       "Los entregó a pasiones vergonzosas",
-      "Los desterró para que sufrieran dolor"
+      "Los entregó a la inmundicia de sus corazones",
+      "Los entregó a una mente reprobada",
+      "Los entregó a un espíritu de estupor"
     ],
-    "correcta": 2
+    "correcta": 0
   },
   {
     "dificultad": "avanzado",
     "enunciado": "Según Romanos 1:28, ¿a qué entregó Dios a los que no quisieron tenerlo en cuenta?",
     "referencia": "Romanos 1:28",
     "opciones": [
-      "Los expulsó de su reino",
       "Los entregó a una mente reprobada",
-      "Los apartó del torrente de la vida",
-      "Los dejó en la oscuridad de la ignorancia"
+      "Los entregó a la inmundicia de sus corazones",
+      "Los entregó a pasiones vergonzosas",
+      "Los entregó a creer la mentira"
     ],
-    "correcta": 1
+    "correcta": 0
   },
   {
     "dificultad": "avanzado",
     "enunciado": "Según Romanos 1, ¿en qué consistieron las pasiones vergonzosas a las que Dios los entregó?",
     "referencia": "Romanos 1:26-27",
     "opciones": [
-      "Se dedicaron a servir a muchos dioses",
-      "Practicaron el robo",
       "Cambiaron las relaciones naturales por las que son contra naturaleza, tanto mujeres como hombres",
-      "Se convirtieron en asesinos"
+      "Se entregaron a la embriaguez y las orgías",
+      "Adoraron imágenes de hombres y de aves",
+      "Se llenaron de envidia, homicidios y contiendas"
     ],
-    "correcta": 2
+    "correcta": 0
   },
   {
     "dificultad": "avanzado",
     "enunciado": "Según Romanos 1, ¿con qué propósito se había propuesto Pablo visitar a los creyentes de Roma?",
     "referencia": "Romanos 1:13",
     "opciones": [
-      "Para mostrarles el misterio del reino",
-      "Para mostrarles su rostro",
-      "Para guiarlos a la salvación",
-      "Para tener también entre ellos algún fruto, como entre los demás gentiles"
+      "Para tener también entre ellos algún fruto, como entre los demás gentiles",
+      "Para ser ayudado por ellos rumbo a España",
+      "Para entregarles la ofrenda de Macedonia",
+      "Para defender su causa ante el César"
     ],
-    "correcta": 3
+    "correcta": 0
+  },
+  {
+    "tipo": "aproximacion",
+    "dificultad": "basico",
+    "enunciado": "¿Cada cuántos días se celebra el sábado (shabat)?",
+    "referencia": "Éxodo 20:8-11",
+    "respuesta": 7,
+    "unidad": "días"
+  },
+  {
+    "tipo": "aproximacion",
+    "dificultad": "basico",
+    "enunciado": "¿Cuántos libros tiene la Biblia en el canon protestante?",
+    "referencia": null,
+    "respuesta": 66,
+    "unidad": "libros"
+  },
+  {
+    "tipo": "aproximacion",
+    "dificultad": "basico",
+    "enunciado": "¿Cuántos libros tiene el Nuevo Testamento?",
+    "referencia": null,
+    "respuesta": 27,
+    "unidad": "libros"
+  },
+  {
+    "tipo": "aproximacion",
+    "dificultad": "basico",
+    "enunciado": "¿Cuántas plagas cayeron sobre Egipto?",
+    "referencia": "Éxodo 7-12",
+    "respuesta": 10,
+    "unidad": "plagas"
+  },
+  {
+    "tipo": "aproximacion",
+    "dificultad": "basico",
+    "enunciado": "¿Cuántos días y noches llovió sobre la tierra en el diluvio?",
+    "referencia": "Génesis 7:12",
+    "respuesta": 40,
+    "unidad": "días"
+  },
+  {
+    "tipo": "aproximacion",
+    "dificultad": "basico",
+    "enunciado": "¿Cuántas personas se salvaron dentro del arca de Noé?",
+    "referencia": "1 Pedro 3:20",
+    "respuesta": 8,
+    "unidad": "personas"
+  },
+  {
+    "tipo": "aproximacion",
+    "dificultad": "basico",
+    "enunciado": "¿Cuántos capítulos tiene el libro de los Salmos?",
+    "referencia": null,
+    "respuesta": 150,
+    "unidad": "capítulos"
+  },
+  {
+    "tipo": "aproximacion",
+    "dificultad": "basico",
+    "enunciado": "¿Cuántas monedas de plata recibió Judas por entregar a Jesús?",
+    "referencia": "Mateo 26:15",
+    "respuesta": 30,
+    "unidad": "monedas"
+  },
+  {
+    "tipo": "aproximacion",
+    "dificultad": "basico",
+    "enunciado": "¿Cuántos años anduvo Israel por el desierto?",
+    "referencia": "Números 14:33-34",
+    "respuesta": 40,
+    "unidad": "años"
+  },
+  {
+    "tipo": "aproximacion",
+    "dificultad": "basico",
+    "enunciado": "¿Cuántas piedras tomó David del arroyo antes de enfrentar a Goliat?",
+    "referencia": "1 Samuel 17:40",
+    "respuesta": 5,
+    "unidad": "piedras"
+  },
+  {
+    "tipo": "aproximacion",
+    "dificultad": "intermedio",
+    "enunciado": "¿Cuántos años vivió Matusalén, el hombre más longevo de la Biblia?",
+    "referencia": "Génesis 5:27",
+    "respuesta": 969,
+    "unidad": "años"
+  },
+  {
+    "tipo": "aproximacion",
+    "dificultad": "intermedio",
+    "enunciado": "¿Cuántos codos de largo medía el arca de Noé?",
+    "referencia": "Génesis 6:15",
+    "respuesta": 300,
+    "unidad": "codos"
+  },
+  {
+    "tipo": "aproximacion",
+    "dificultad": "intermedio",
+    "enunciado": "¿Cuántos años de cautiverio en Babilonia anunció Jeremías?",
+    "referencia": "Jeremías 25:11",
+    "respuesta": 70,
+    "unidad": "años"
+  },
+  {
+    "tipo": "aproximacion",
+    "dificultad": "intermedio",
+    "enunciado": "¿Cada cuántos años debía celebrarse el año del jubileo?",
+    "referencia": "Levítico 25:10",
+    "respuesta": 50,
+    "unidad": "años"
+  },
+  {
+    "tipo": "aproximacion",
+    "dificultad": "intermedio",
+    "enunciado": "¿Cuántas personas se bautizaron el día de Pentecostés?",
+    "referencia": "Hechos 2:41",
+    "respuesta": 3000,
+    "unidad": "personas"
+  },
+  {
+    "tipo": "aproximacion",
+    "dificultad": "intermedio",
+    "enunciado": "¿Cuántos discípulos estaban reunidos cuando Pedro propuso reemplazar a Judas?",
+    "referencia": "Hechos 1:15",
+    "respuesta": 120,
+    "unidad": "personas"
+  },
+  {
+    "tipo": "aproximacion",
+    "dificultad": "intermedio",
+    "enunciado": "¿Con cuántos hombres se quedó Gedeón para pelear contra los madianitas?",
+    "referencia": "Jueces 7:7",
+    "respuesta": 300,
+    "unidad": "hombres"
+  },
+  {
+    "tipo": "aproximacion",
+    "dificultad": "intermedio",
+    "enunciado": "¿Cuántos días llevaba Lázaro en el sepulcro cuando Jesús llegó a Betania?",
+    "referencia": "Juan 11:17",
+    "respuesta": 4,
+    "unidad": "días"
+  },
+  {
+    "tipo": "aproximacion",
+    "dificultad": "intermedio",
+    "enunciado": "¿Cuántos ancianos están sentados alrededor del trono en Apocalipsis?",
+    "referencia": "Apocalipsis 4:4",
+    "respuesta": 24,
+    "unidad": "ancianos"
+  },
+  {
+    "tipo": "aproximacion",
+    "dificultad": "intermedio",
+    "enunciado": "¿Cuántos años tenía Abraham cuando nació Isaac?",
+    "referencia": "Génesis 21:5",
+    "respuesta": 100,
+    "unidad": "años"
+  },
+  {
+    "tipo": "aproximacion",
+    "dificultad": "avanzado",
+    "enunciado": "¿A cuántos denarios equivalía un talento?",
+    "referencia": "Mateo 18:24",
+    "respuesta": 6000,
+    "unidad": "denarios"
+  },
+  {
+    "tipo": "aproximacion",
+    "dificultad": "avanzado",
+    "enunciado": "¿Cuántos meses tiene un año embolismal (bisiesto) del calendario hebreo?",
+    "referencia": null,
+    "respuesta": 13,
+    "unidad": "meses"
+  },
+  {
+    "tipo": "aproximacion",
+    "dificultad": "avanzado",
+    "enunciado": "¿Cuántos cantares compuso Salomón?",
+    "referencia": "1 Reyes 4:32",
+    "respuesta": 1005,
+    "unidad": "cantares"
+  },
+  {
+    "tipo": "aproximacion",
+    "dificultad": "avanzado",
+    "enunciado": "¿Cuántas mujeres reinas llegó a tener Salomón?",
+    "referencia": "1 Reyes 11:3",
+    "respuesta": 700,
+    "unidad": "mujeres"
+  },
+  {
+    "tipo": "aproximacion",
+    "dificultad": "avanzado",
+    "enunciado": "¿Cuántos siclos pesaba el cabello que Absalón se cortaba cada año?",
+    "referencia": "2 Samuel 14:26",
+    "respuesta": 200,
+    "unidad": "siclos"
+  },
+  {
+    "tipo": "aproximacion",
+    "dificultad": "avanzado",
+    "enunciado": "¿Cuántos hombres mató Sansón con una quijada de asno?",
+    "referencia": "Jueces 15:15",
+    "respuesta": 1000,
+    "unidad": "hombres"
+  },
+  {
+    "tipo": "aproximacion",
+    "dificultad": "avanzado",
+    "enunciado": "¿Cuántos filisteos mató Samgar con una aguijada de bueyes?",
+    "referencia": "Jueces 3:31",
+    "respuesta": 600,
+    "unidad": "filisteos"
+  },
+  {
+    "tipo": "aproximacion",
+    "dificultad": "avanzado",
+    "enunciado": "¿Cuántos codos medía el muro de la nueva Jerusalén?",
+    "referencia": "Apocalipsis 21:17",
+    "respuesta": 144,
+    "unidad": "codos"
+  },
+  {
+    "tipo": "aproximacion",
+    "dificultad": "avanzado",
+    "enunciado": "Si hay que perdonar «setenta veces siete», ¿a cuántas veces equivale?",
+    "referencia": "Mateo 18:22",
+    "respuesta": 490,
+    "unidad": "veces"
+  },
+  {
+    "tipo": "aproximacion",
+    "dificultad": "avanzado",
+    "enunciado": "¿Cuántos versículos tiene el Salmo 119, el capítulo más largo de la Biblia?",
+    "referencia": "Salmo 119",
+    "respuesta": 176,
+    "unidad": "versículos"
   }
 ]

@@ -17,6 +17,7 @@ import {
   BotonPantallaCompleta,
 } from "@/components/pantalla-completa";
 import { Tableta } from "@/components/tableta";
+import { barajarCon } from "@/lib/barajar";
 import {
   CATEGORIAS,
   type CategoriaId,
@@ -505,16 +506,19 @@ function Ronda({
   onSiguiente,
   onVolver,
 }: RondaProps) {
-  // Con opciones largas, una sola columna da el doble de ancho por línea y
-  // permite dejar la letra más grande.
-  const masLarga = Math.max(...pregunta.opciones.map((o) => o.texto.length));
+  // El orden se baraja por pregunta, con su id como semilla: deja de pagar
+  // tener la correcta siempre primera, y como la semilla es fija el orden no
+  // cambia al refrescar, así el índice que viaja en la URL sigue valiendo.
+  const opciones = useMemo(
+    () => barajarCon(pregunta.opciones, pregunta.id),
+    [pregunta],
+  );
+
+  // Con opciones largas, una sola columna da el doble de ancho por línea.
+  const masLarga = Math.max(...opciones.map((o) => o.texto.length));
   const columnas =
-    masLarga > 78
-      ? 1
-      : pregunta.opciones.length === 3 && masLarga <= 30
-        ? 3
-        : 2;
-  const tamano = tamanoOpcion(pregunta.opciones);
+    masLarga > 78 ? 1 : opciones.length === 3 && masLarga <= 30 ? 3 : 2;
+  const tamano = tamanoOpcion(opciones);
 
   return (
     <main className="grid min-h-0 flex-1 grid-rows-[auto_1fr_auto] gap-[2.5vh] px-[3vw] py-[3vh]">
@@ -541,13 +545,13 @@ function Ronda({
               gridAutoRows: "1fr",
             }}
           >
-            {pregunta.opciones.map((opcion, indice) => (
+            {opciones.map((opcion, indice) => (
               <OpcionLosa
                 key={opcion.texto}
                 letra={LETRAS[indice]}
                 texto={opcion.texto}
                 tamano={tamano}
-                estado={estadoDeOpcion(pregunta, elegida, indice)}
+                estado={estadoDeOpcion(opciones, elegida, indice)}
                 onElegir={() => onElegir(indice)}
               />
             ))}
@@ -563,7 +567,7 @@ function Ronda({
 
       <Pie
         pregunta={pregunta}
-        elegida={elegida}
+        acerto={elegida !== null && opciones[elegida]?.correcta === true}
         resuelta={resuelta}
         quedan={quedan}
         onSiguiente={onSiguiente}
@@ -574,12 +578,12 @@ function Ronda({
 }
 
 function estadoDeOpcion(
-  pregunta: Pregunta,
+  opciones: Pregunta["opciones"],
   elegida: number | null,
   indice: number,
 ): EstadoLosa {
   if (elegida === null) return "inerte";
-  const esCorrecta = pregunta.opciones[indice].correcta;
+  const esCorrecta = opciones[indice].correcta;
   if (indice === elegida) return esCorrecta ? "acertada" : "fallada";
   return esCorrecta ? "correcta" : "descartada";
 }
@@ -629,7 +633,7 @@ function Aproximacion({ pregunta, revelado, onRevelar }: AproximacionProps) {
 
 type PieProps = {
   pregunta: Pregunta;
-  elegida: number | null;
+  acerto: boolean;
   resuelta: boolean;
   quedan: number;
   onSiguiente: () => void;
@@ -638,17 +642,12 @@ type PieProps = {
 
 function Pie({
   pregunta,
-  elegida,
+  acerto,
   resuelta,
   quedan,
   onSiguiente,
   onVolver,
 }: PieProps) {
-  const acerto =
-    pregunta.tipo === "opcion_multiple" &&
-    elegida !== null &&
-    pregunta.opciones[elegida]?.correcta === true;
-
   if (!resuelta) {
     return (
       <p className="shrink-0 text-center text-[clamp(0.62rem,1.3vh,0.82rem)] text-travertino/40">

@@ -10,7 +10,8 @@
     "format": "biome format --write",
     "db:push": "node --env-file=.env scripts/db-push.mjs",
     "typecheck": "next typegen && tsc --noEmit",
-    "db:seed": "node --env-file=.env scripts/db-seed.mjs"
+    "db:seed": "node --env-file=.env scripts/db-seed.mjs",
+    "db:seed:actualizar": "node --env-file=.env scripts/db-seed.mjs --actualizar"
   },
   "dependencies": {
     "next": "16.3.8",

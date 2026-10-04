@@ -16,8 +16,10 @@ y aproximación, cada una en básico, intermedio y avanzado.
   respuesta se dibuja hasta que el operador revela, y entonces los tambores de
   bronce ruedan hasta el número.
 
-Ninguna pregunta se repite dentro de una sesión. El progreso sobrevive a un
-refresh accidental.
+Las opciones se barajan por pregunta —con su id como semilla, así el orden no
+cambia al refrescar— porque al escribir uno tiende a poner la correcta primera.
+Ninguna pregunta se repite dentro de una sesión, hay un botón para reiniciar el
+contador, y el progreso sobrevive a un refresh accidental.
 
 ### Atajos de teclado
 
@@ -55,6 +57,7 @@ pnpm dev
 | `pnpm build` | Build de producción |
 | `pnpm db:push` | Aplica `src/db/schema.sql` (es idempotente) |
 | `pnpm db:seed` | Carga `scripts/preguntas-iniciales.json` (saltea las que ya están) |
+| `pnpm db:seed:actualizar` | Igual, pero además sincroniza las opciones de las que ya estaban |
 | `pnpm lint` | Biome |
 | `pnpm typecheck` | `next typegen` + `tsc --noEmit` |
 
