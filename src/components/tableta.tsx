@@ -5,6 +5,8 @@ type Props = {
   tipo: Tipo;
   dificultad: Dificultad;
   restantes: number;
+  /** Cuántas hay en la categoría en total, usadas o no. */
+  total: number;
   onElegir: () => void;
 };
 
@@ -15,8 +17,17 @@ const REMATE = "46% 46% 4px 4px / 14% 14% 4px 4px";
  * Tableta de piedra: una de las seis categorías elegibles. Cuando se agota
  * queda gastada y deshabilitada, con el motivo a la vista.
  */
-export function Tableta({ tipo, dificultad, restantes, onElegir }: Props) {
+export function Tableta({
+  tipo,
+  dificultad,
+  restantes,
+  total,
+  onElegir,
+}: Props) {
   const agotada = restantes === 0;
+  // Una categoría sin preguntas cargadas no es lo mismo que una agotada: decir
+  // "ya se usaron todas" cuando nunca hubo ninguna desorienta a quien opera.
+  const vacia = total === 0;
 
   return (
     <button
@@ -25,9 +36,11 @@ export function Tableta({ tipo, dificultad, restantes, onElegir }: Props) {
       disabled={agotada}
       style={{ borderRadius: REMATE }}
       aria-label={`${ETIQUETA_TIPO_CORTA[tipo]}, ${ETIQUETA_DIFICULTAD[dificultad]}. ${
-        agotada
-          ? "Sin preguntas disponibles."
-          : `${restantes} preguntas disponibles.`
+        vacia
+          ? "No hay preguntas cargadas en esta categoría."
+          : agotada
+            ? "Ya salieron todas las preguntas de esta categoría."
+            : `${restantes} preguntas disponibles.`
       }`}
       className={[
         "group relative flex flex-col items-center justify-center gap-[1.4vh]",
@@ -65,7 +78,11 @@ export function Tableta({ tipo, dificultad, restantes, onElegir }: Props) {
           agotada ? "text-porfido-2" : "text-dorado-3",
         ].join(" ")}
       >
-        {agotada ? "ya se usaron todas" : `${restantes} sin usar`}
+        {vacia
+          ? "sin preguntas cargadas"
+          : agotada
+            ? "ya se usaron todas"
+            : `${restantes} sin usar`}
       </span>
     </button>
   );

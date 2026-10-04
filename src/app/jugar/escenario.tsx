@@ -122,6 +122,14 @@ export function Escenario({ banco }: { banco: Pregunta[] }) {
     return mapa;
   }, [banco, usadas]);
 
+  const totales = useMemo(() => {
+    const mapa: Record<string, number> = {};
+    for (const item of CATEGORIAS) mapa[item.id] = 0;
+    for (const item of banco)
+      mapa[categoriaId(item.tipo, item.dificultad)] += 1;
+    return mapa;
+  }, [banco]);
+
   const totalUsadas = useMemo(
     () => banco.filter((item) => usadas.has(item.id)).length,
     [banco, usadas],
@@ -259,6 +267,7 @@ export function Escenario({ banco }: { banco: Pregunta[] }) {
         <Tablero
           banco={banco}
           restantes={restantes}
+          totales={totales}
           totalUsadas={totalUsadas}
           agotada={agotada}
           onElegir={abrirCategoria}
@@ -333,6 +342,7 @@ function Cabecera({
 type TableroProps = {
   banco: Pregunta[];
   restantes: Record<string, number>;
+  totales: Record<string, number>;
   totalUsadas: number;
   agotada: boolean;
   onElegir: (categoria: CategoriaId) => void;
@@ -342,6 +352,7 @@ type TableroProps = {
 function Tablero({
   banco,
   restantes,
+  totales,
   totalUsadas,
   agotada,
   onElegir,
@@ -400,6 +411,7 @@ function Tablero({
                 tipo={tipo}
                 dificultad={dificultad}
                 restantes={restantes[categoriaId(tipo, dificultad)] ?? 0}
+                total={totales[categoriaId(tipo, dificultad)] ?? 0}
                 onElegir={() => onElegir(categoriaId(tipo, dificultad))}
               />
             ))}

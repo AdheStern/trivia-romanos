@@ -45,6 +45,7 @@ pegados tipo y dificultad para cargar de a tandas.
 pnpm install
 cp .env.example .env    # y pegá la cadena real de Supabase
 pnpm db:push            # crea la tabla, los tipos y los índices
+pnpm db:seed            # carga el banco inicial de preguntas
 pnpm dev
 ```
 
@@ -53,6 +54,7 @@ pnpm dev
 | `pnpm dev` | Servidor de desarrollo |
 | `pnpm build` | Build de producción |
 | `pnpm db:push` | Aplica `src/db/schema.sql` (es idempotente) |
+| `pnpm db:seed` | Carga `scripts/preguntas-iniciales.json` (saltea las que ya están) |
 | `pnpm lint` | Biome |
 | `pnpm typecheck` | `next typegen` + `tsc --noEmit` |
 
