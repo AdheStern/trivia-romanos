@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Trivia de Romanos
 
-## Getting Started
+App para una competencia en vivo sobre la epístola de Pablo a los Romanos. Un
+operador maneja el laptop conectado al proyector y la sala ve la pregunta en
+grande.
 
-First, run the development server:
+## Cómo se juega
+
+Al entrar a `/jugar` aparece un tablero con **seis categorías**: opción múltiple
+y aproximación, cada una en básico, intermedio y avanzado.
+
+- **Opción múltiple** — el operador hace click en la opción que eligió el grupo.
+  Si acierta, la losa se enciende en verdigris con un laurel; si falla, se
+  oscurece en pórfido y se señala cuál era la correcta.
+- **Aproximación** — los grupos dicen su número en voz alta. Nada de la
+  respuesta se dibuja hasta que el operador revela, y entonces los tambores de
+  bronce ruedan hasta el número.
+
+Ninguna pregunta se repite dentro de una sesión. El progreso sobrevive a un
+refresh accidental.
+
+### Atajos de teclado
+
+| Tecla | Acción |
+|---|---|
+| `1`–`9`, `A`–`H` | Elegir una opción |
+| `R` | Revelar la respuesta de aproximación |
+| `Enter` / `Espacio` | Siguiente pregunta de la categoría |
+| `Esc` | Volver al tablero |
+| `F` | Pantalla completa |
+
+Todo lo anterior existe también como botón.
+
+## Banco de preguntas
+
+`/admin` pide un código de 8 dígitos. Desde ahí se cargan, corrigen y borran
+preguntas, con filtros por tipo y dificultad, búsqueda que ignora acentos, un
+botón para **verificar si una pregunta ya existe** (similitud por trigramas) y
+**«Guardar y seguir creando»**, que deja el formulario en blanco pero mantiene
+pegados tipo y dificultad para cargar de a tandas.
+
+## Puesta en marcha
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+pnpm install
+cp .env.example .env    # y pegá la cadena real de Supabase
+pnpm db:push            # crea la tabla, los tipos y los índices
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+| Script | Qué hace |
+|---|---|
+| `pnpm dev` | Servidor de desarrollo |
+| `pnpm build` | Build de producción |
+| `pnpm db:push` | Aplica `src/db/schema.sql` (es idempotente) |
+| `pnpm lint` | Biome |
+| `pnpm typecheck` | `next typegen` + `tsc --noEmit` |
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Cómo está armado
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Next.js 16 (App Router), React 19, Tailwind v4 CSS-first, TypeScript estricto y
+Biome. Se habla a Postgres directo con `postgres` (postgres.js) desde el
+servidor; no hace falta el SDK de Supabase ni una anon key.
 
-## Learn More
+- `src/db/` — cliente, esquema y consultas
+- `src/lib/` — tipos compartidos, validación con zod y la reja del CRUD
+- `src/app/jugar/` — el escenario proyectado
+- `src/app/admin/` — el CRUD
+- `src/components/` — arco, odómetro, losas y tabletas (SVG y CSS, sin imágenes
+  externas: funciona sin internet durante el evento)
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+El banco se lee una sola vez al entrar a `/jugar` y de ahí en más la trivia
+corre en el cliente, a propósito: si se cae la red en medio de la competencia,
+el juego sigue.
