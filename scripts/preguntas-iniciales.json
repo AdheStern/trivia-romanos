@@ -35,7 +35,12 @@
   {
     "enunciado": "¿Quién escribió la carta a los Romanos?",
     "referencia": "Romanos 1:1",
-    "opciones": ["Pedro", "Pablo", "Lucas", "Apolos"],
+    "opciones": [
+      "Pedro",
+      "Pablo",
+      "Lucas",
+      "Apolos"
+    ],
     "correcta": 1
   },
   {
@@ -140,7 +145,12 @@
   {
     "enunciado": "¿Qué personaje utiliza Pablo como ejemplo destacado de justificación por fe?",
     "referencia": "Romanos 4:1-3",
-    "opciones": ["Abraham", "Moisés", "Noé", "Josué"],
+    "opciones": [
+      "Abraham",
+      "Moisés",
+      "Noé",
+      "Josué"
+    ],
     "correcta": 0
   },
   {
@@ -168,13 +178,23 @@
   {
     "enunciado": "¿Por medio de quién entró el pecado al mundo según Romanos 5?",
     "referencia": "Romanos 5:12",
-    "opciones": ["Adán", "Eva", "Caín", "Satanás"],
+    "opciones": [
+      "Adán",
+      "Eva",
+      "Caín",
+      "Satanás"
+    ],
     "correcta": 0
   },
   {
     "enunciado": "¿Qué sobreabundó cuando el pecado abundó?",
     "referencia": "Romanos 5:20",
-    "opciones": ["La gracia", "La ley", "La muerte", "El juicio"],
+    "opciones": [
+      "La gracia",
+      "La ley",
+      "La muerte",
+      "El juicio"
+    ],
     "correcta": 0
   },
   {
@@ -202,7 +222,12 @@
   {
     "enunciado": "Según Romanos 6:23, ¿cuál es la paga del pecado?",
     "referencia": "Romanos 6:23",
-    "opciones": ["Muerte", "Enfermedad", "Esclavitud", "Destierro"],
+    "opciones": [
+      "Muerte",
+      "Enfermedad",
+      "Esclavitud",
+      "Destierro"
+    ],
     "correcta": 0
   },
   {
@@ -213,17 +238,6 @@
       "El perdón de los pecados",
       "El Espíritu Santo",
       "La paz que sobrepasa todo entendimiento"
-    ],
-    "correcta": 0
-  },
-  {
-    "enunciado": "Según Romanos 7, ¿qué produce la ley respecto al conocimiento del pecado?",
-    "referencia": "Romanos 7:7",
-    "opciones": [
-      "Lo da a conocer",
-      "Lo quita de raíz",
-      "Lo justifica",
-      "Lo disminuye poco a poco"
     ],
     "correcta": 0
   },
@@ -252,13 +266,23 @@
   {
     "enunciado": "Según Romanos 8:1, ¿qué no hay para los que están en Cristo Jesús?",
     "referencia": "Romanos 8:1",
-    "opciones": ["Condenación", "Tentación", "Tribulación", "Acusación"],
+    "opciones": [
+      "Condenación",
+      "Tentación",
+      "Tribulación",
+      "Acusación"
+    ],
     "correcta": 0
   },
   {
     "enunciado": "Según Romanos 8:15, ¿qué pueden decir los creyentes por el espíritu de adopción?",
     "referencia": "Romanos 8:15",
-    "opciones": ["Abba, Padre", "Maranata", "Aleluya", "Santo, santo, santo"],
+    "opciones": [
+      "Abba, Padre",
+      "Maranata",
+      "Aleluya",
+      "Santo, santo, santo"
+    ],
     "correcta": 0
   },
   {
@@ -405,17 +429,6 @@
     "correcta": 0
   },
   {
-    "enunciado": "Según Romanos 3:20, ¿qué conocimiento produce la ley?",
-    "referencia": "Romanos 3:20",
-    "opciones": [
-      "Conocimiento del pecado",
-      "Conocimiento de la gracia",
-      "Conocimiento del misterio de Cristo",
-      "Conocimiento del tiempo del fin"
-    ],
-    "correcta": 0
-  },
-  {
     "enunciado": "Según Romanos 3:28, ¿cómo es justificado el hombre?",
     "referencia": "Romanos 3:28",
     "opciones": [
@@ -429,7 +442,12 @@
   {
     "enunciado": "¿Qué ejemplo utiliza Pablo en Romanos 4 para demostrar que la fe precedió a la circuncisión?",
     "referencia": "Romanos 4:9-11",
-    "opciones": ["Abraham", "Moisés", "David", "Melquisedec"],
+    "opciones": [
+      "Abraham",
+      "Moisés",
+      "David",
+      "Melquisedec"
+    ],
     "correcta": 0
   },
   {
@@ -457,7 +475,12 @@
   {
     "enunciado": "Según Romanos 5:3-4, la tribulación produce una cadena que culmina en:",
     "referencia": "Romanos 5:3-4",
-    "opciones": ["Esperanza", "Paciencia", "Prueba", "Amor"],
+    "opciones": [
+      "Esperanza",
+      "Paciencia",
+      "Prueba",
+      "Amor"
+    ],
     "correcta": 0
   },
   {
@@ -584,7 +607,12 @@
   {
     "enunciado": "¿Cuál de estas cosas menciona Pablo entre las que no pueden separarnos del amor de Dios en Romanos 8?",
     "referencia": "Romanos 8:35",
-    "opciones": ["La tribulación", "La enfermedad", "La pobreza", "La duda"],
+    "opciones": [
+      "La tribulación",
+      "La enfermedad",
+      "La pobreza",
+      "La duda"
+    ],
     "correcta": 0
   },
   {
@@ -623,7 +651,12 @@
   {
     "enunciado": "Según Romanos 11:17, ¿qué imagen utiliza Pablo para representar la relación entre Israel y los gentiles incorporados?",
     "referencia": "Romanos 11:17",
-    "opciones": ["Un olivo", "Una vid", "Una higuera", "Un cedro del Líbano"],
+    "opciones": [
+      "Un olivo",
+      "Una vid",
+      "Una higuera",
+      "Un cedro del Líbano"
+    ],
     "correcta": 0
   },
   {
@@ -689,7 +722,12 @@
     "dificultad": "intermedio",
     "enunciado": "Según Romanos 1, ¿de quién era descendiente Jesús según la carne?",
     "referencia": "Romanos 1:3",
-    "opciones": ["David", "Abraham", "Judá", "Aarón"],
+    "opciones": [
+      "David",
+      "Abraham",
+      "Judá",
+      "Aarón"
+    ],
     "correcta": 0
   },
   {
@@ -801,18 +839,6 @@
     "correcta": 0
   },
   {
-    "dificultad": "intermedio",
-    "enunciado": "¿Por qué anhelaba Pablo ver a los creyentes de Roma?",
-    "referencia": "Romanos 1:11",
-    "opciones": [
-      "Para comunicarles algún don espiritual y confirmarlos",
-      "Para ordenar ancianos en cada ciudad",
-      "Para corregir lo deficiente de su doctrina",
-      "Para recoger la ofrenda de los santos"
-    ],
-    "correcta": 0
-  },
-  {
     "dificultad": "avanzado",
     "enunciado": "Según Romanos 1, ¿por qué Pablo no había podido ir todavía a Roma?",
     "referencia": "Romanos 1:13",
@@ -821,18 +847,6 @@
       "Estaba preso en Jerusalén",
       "Esperaba el permiso de los apóstoles",
       "No tenía quién lo acompañara"
-    ],
-    "correcta": 0
-  },
-  {
-    "dificultad": "intermedio",
-    "enunciado": "Según Romanos 1, ¿de quiénes se declaraba deudor Pablo?",
-    "referencia": "Romanos 1:14",
-    "opciones": [
-      "De griegos y bárbaros, sabios y no sabios",
-      "Sólo de los judíos",
-      "Sólo de los gentiles",
-      "De los que ya habían creído"
     ],
     "correcta": 0
   },
@@ -869,18 +883,6 @@
       "Contra los enemigos de Israel",
       "Contra los que profanan el sábado",
       "Contra los falsos profetas"
-    ],
-    "correcta": 0
-  },
-  {
-    "dificultad": "intermedio",
-    "enunciado": "Según Romanos 1, ¿por qué vive el justo?",
-    "referencia": "Romanos 1:17",
-    "opciones": [
-      "Por la fe",
-      "Por la justicia que practica",
-      "Por la misericordia de Dios",
-      "Por la obediencia a la ley"
     ],
     "correcta": 0
   },
